@@ -1,0 +1,40 @@
+0000000000000000000000000000000000000000 ec7dc22f90322c4687f82d187ad5ff85e22d62be Marcio Fuentes <marcio@adue.digital> 1758206447 -0300	commit (initial): first commit
+ec7dc22f90322c4687f82d187ad5ff85e22d62be ec7dc22f90322c4687f82d187ad5ff85e22d62be Marcio Fuentes <marcio@adue.digital> 1758206454 -0300	Branch: renamed refs/heads/master to refs/heads/main
+ec7dc22f90322c4687f82d187ad5ff85e22d62be e5ce9831e90722515545b7af3718ade933bec154 Marcio Fuentes <marcio@adue.digital> 1758306750 -0300	commit: Refactor error handling and type definitions across authentication and dashboard components. Update error handling to use specific error types, improve type safety with Record<string, unknown>, and replace any with more precise types. Adjust JSX to use HTML entities for apostrophes and quotes. Optimize useEffect dependencies in various components.
+e5ce9831e90722515545b7af3718ade933bec154 74f5cc7adbdb34daac18e770a308073fa6cc4c46 Marcio Fuentes <marcio@adue.digital> 1758306990 -0300	commit: Fixes 2
+74f5cc7adbdb34daac18e770a308073fa6cc4c46 1e306669284b7644be8eed9f4b03fb5bcba33837 Marcio Fuentes <marcio@adue.digital> 1758307192 -0300	commit: Fixes 3
+1e306669284b7644be8eed9f4b03fb5bcba33837 e7406fe81afc004d9caf4b75dbe00c74fb9b853d Marcio Fuentes <marcio@adue.digital> 1758307734 -0300	commit: Fixes 4
+e7406fe81afc004d9caf4b75dbe00c74fb9b853d 9b2a105cc8da0c091f37d39d74d65ce868b60172 Marcio Fuentes <marcio@adue.digital> 1758307936 -0300	commit: Fixes 5
+9b2a105cc8da0c091f37d39d74d65ce868b60172 5569f80ac91a9a22d54b02c7a5b375e94d76f89d Marcio Fuentes <marcio@adue.digital> 1758308209 -0300	commit: Fixes 6
+5569f80ac91a9a22d54b02c7a5b375e94d76f89d 1ad3a72ea5ae5695faa9cad5197b152521f03bc4 Marcio Fuentes <marcio@adue.digital> 1758308562 -0300	commit: Fixes 7
+1ad3a72ea5ae5695faa9cad5197b152521f03bc4 b5d9344bd15c298771f5c39a54c46e2aa23e05dd Marcio Fuentes <marcio@adue.digital> 1758309025 -0300	commit: Fixes 8
+b5d9344bd15c298771f5c39a54c46e2aa23e05dd d4fe0276c1c0029711c85cfda7a57c5bc1484444 Marcio Fuentes <marcio@adue.digital> 1758309350 -0300	commit: Fixes 9
+d4fe0276c1c0029711c85cfda7a57c5bc1484444 7671855d40ccde4b4e9ce9a3d4777b5b77c2d5fc Marcio Fuentes <marcio@adue.digital> 1758309625 -0300	commit: Fixes 10
+7671855d40ccde4b4e9ce9a3d4777b5b77c2d5fc 6758c6984551e358cc5abc60f21829df9a6a5d12 Marcio Fuentes <marcio@adue.digital> 1758310310 -0300	commit: Fixes 11
+6758c6984551e358cc5abc60f21829df9a6a5d12 5fdfce84bc6961c01dd7a41c65324b6ae97a9a07 Marcio Fuentes <marcio@adue.digital> 1758415608 -0300	commit: Add support for publisher CUIT in Mobbex checkout process
+5fdfce84bc6961c01dd7a41c65324b6ae97a9a07 9ca6a63efcf49997dd53c258bd2c23825c05919a Marcio Fuentes <marcio@adue.digital> 1758548888 -0300	commit: Improves
+9ca6a63efcf49997dd53c258bd2c23825c05919a 773a1510fc1fa078a7973ac9bef1a725a4bc57dd Marcio Fuentes <marcio@adue.digital> 1758807534 -0300	commit: Update layout and content for Marketplace Turismo
+773a1510fc1fa078a7973ac9bef1a725a4bc57dd e8dc7a01ff68a85539e6da459e01ecb9555cf5d4 Marcio Fuentes <marcio@adue.digital> 1759427863 -0300	commit: Refactor application branding and enhance user experience
+e8dc7a01ff68a85539e6da459e01ecb9555cf5d4 07019e06e264b49ec0f9b8f788f06fc731135868 Marcio Fuentes <marcio@adue.digital> 1759935051 -0300	commit: Enhance location handling and UI components
+07019e06e264b49ec0f9b8f788f06fc731135868 2242adcb2637e3340f4724fc0e32f469f972237f Marcio Fuentes <marcio@adue.digital> 1759943843 -0300	commit: Refactor layout and enhance loading states
+2242adcb2637e3340f4724fc0e32f469f972237f 4ed9607e70e3cee1eca2f310c628a3525726060a Marcio Fuentes <marcio@adue.digital> 1759965451 -0300	commit: Update Header component to use Image for logo rendering
+4ed9607e70e3cee1eca2f310c628a3525726060a 3660c34a9830f41e7f78681dbd705bfb18111776 Marcio Fuentes <marcio@adue.digital> 1759965907 -0300	commit: new logo
+3660c34a9830f41e7f78681dbd705bfb18111776 45c57114bcde1d6f633fc5b7f872bc4590758099 Marcio Fuentes <marcio@adue.digital> 1759966961 -0300	commit: Add background decorative images to Popular Destinations and Stats sections
+45c57114bcde1d6f633fc5b7f872bc4590758099 8b463f1c363c99be3927623ea9198435401393a3 Marcio Fuentes <marcio@adue.digital> 1760210671 -0300	commit: Improves
+8b463f1c363c99be3927623ea9198435401393a3 b95440d87e6295d36ee73c6f48779a007aaeed64 Marcio Fuentes <marcio@adue.digital> 1760240134 -0300	commit: Add MercadoPago integration and enhance subscription plan management
+b95440d87e6295d36ee73c6f48779a007aaeed64 6b876c136a73e37aaec4a41b08ae960c722d5073 Marcio Fuentes <marcio@adue.digital> 1760242329 -0300	commit: Enhance MercadoPago subscription management and update dependencies
+6b876c136a73e37aaec4a41b08ae960c722d5073 82129cd8e5844a29ac081bc62008b0a57c3ec0c5 Marcio Fuentes <marcio@adue.digital> 1760245290 -0300	commit: Enhance subscription management and user role handling in MercadoPago integration
+82129cd8e5844a29ac081bc62008b0a57c3ec0c5 208acc5538a0c89aff43475ac4daefc7f74c5355 Marcio Fuentes <marcio@adue.digital> 1760245488 -0300	commit: Refactor subscription management and improve webhook handling in MercadoPago integration
+208acc5538a0c89aff43475ac4daefc7f74c5355 1ac2f7a9e21f7ecdad4161c00e8fd4641e5cfb56 Marcio Fuentes <marcio@adue.digital> 1760245676 -0300	commit: Refactor payment pages to incorporate Suspense for loading states
+1ac2f7a9e21f7ecdad4161c00e8fd4641e5cfb56 433cbfd42115c9f195fd24b94aa444736ef6b38a Marcio Fuentes <marcio@adue.digital> 1760246218 -0300	commit: Refactor MercadoPagoMarketplaceService to streamline client initialization and configuration checks
+433cbfd42115c9f195fd24b94aa444736ef6b38a 0b3f8918242c42e173cf98ec9989c8c5f1482da9 Marcio Fuentes <marcio@adue.digital> 1760248195 -0300	commit: Refactor Dashboard layout and enhance MercadoPago webhook handling
+0b3f8918242c42e173cf98ec9989c8c5f1482da9 772f6d2668ccd592b7ee859871dbeb1858f714cf Marcio Fuentes <marcio@adue.digital> 1760616432 -0300	commit: Enhance MercadoPago integration and subscription management
+772f6d2668ccd592b7ee859871dbeb1858f714cf c9de33aa470fcf96f3371b8cf48f0ab60a8bc20e Marcio Fuentes <marcio@adue.digital> 1761234178 -0300	commit: Enhance dashboard and booking features with MercadoPago integration
+c9de33aa470fcf96f3371b8cf48f0ab60a8bc20e d03b1193b4e1a06ada518b31a5bcd21be1a0a98d Marcio Fuentes <marcio@adue.digital> 1761324267 -0300	commit: Enhance user management and UI components
+d03b1193b4e1a06ada518b31a5bcd21be1a0a98d 8d4e7ccb85c84df9d446eac1e9d73dc18d181bba Marcio Fuentes <marcio@adue.digital> 1761579172 -0300	commit: Improves
+8d4e7ccb85c84df9d446eac1e9d73dc18d181bba a13716de4bfe1984c03a1d47d549a7dcbb94d5c1 Marcio Fuentes <marcio@adue.digital> 1761587698 -0300	commit: Enhance password validation and user feedback in registration and profile management
+a13716de4bfe1984c03a1d47d549a7dcbb94d5c1 670f3abd873b088dc4fc7f8ca871cd08e255ca94 Marcio Fuentes <marcio@adue.digital> 1761590999 -0300	commit: Implement referral system and enhance user management features
+670f3abd873b088dc4fc7f8ca871cd08e255ca94 52ae4ef7177d7a8bd6eabbbaf65a600a28169a88 Marcio Fuentes <marcio@adue.digital> 1762967111 -0300	commit: A lot of fixes
+52ae4ef7177d7a8bd6eabbbaf65a600a28169a88 66458d7fdede8c48cac842cea44cc7a1bbbbcf05 Marcio Fuentes <marcio@adue.digital> 1762967896 -0300	commit: Implement calculation for marketplace fee in MercadoPagoService
+66458d7fdede8c48cac842cea44cc7a1bbbbcf05 77a2581c8428836e662d52464aa52a933828f103 Marcio Fuentes <marcio@adue.digital> 1763046897 -0300	commit: Add GSAP for animations, update styles, and enhance newsletter functionality
+77a2581c8428836e662d52464aa52a933828f103 a12fc0e7e3268cf3fd4d258ddaa69ce73f777d50 Marcio Fuentes <marcio@adue.digital> 1763517205 -0300	commit: Refactor HomePage and Dashboard components for improved functionality and UI

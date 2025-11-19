@@ -1,0 +1,7273 @@
+[
+  {
+    "name": "Buenos Aires",
+    "cities": [
+      {
+        "name": "25 de Mayo"
+      },
+      {
+        "name": "3 de febrero"
+      },
+      {
+        "name": "A. Alsina"
+      },
+      {
+        "name": "A. Gonzáles Cháves"
+      },
+      {
+        "name": "Aguas Verdes"
+      },
+      {
+        "name": "Alberti"
+      },
+      {
+        "name": "Arrecifes"
+      },
+      {
+        "name": "Ayacucho"
+      },
+      {
+        "name": "Azul"
+      },
+      {
+        "name": "Bahía Blanca"
+      },
+      {
+        "name": "Balcarce"
+      },
+      {
+        "name": "Baradero"
+      },
+      {
+        "name": "Benito Juárez"
+      },
+      {
+        "name": "Berisso"
+      },
+      {
+        "name": "Bolívar"
+      },
+      {
+        "name": "Bragado"
+      },
+      {
+        "name": "Brandsen"
+      },
+      {
+        "name": "Campana"
+      },
+      {
+        "name": "Cañuelas"
+      },
+      {
+        "name": "Capilla del Señor"
+      },
+      {
+        "name": "Capitán Sarmiento"
+      },
+      {
+        "name": "Carapachay"
+      },
+      {
+        "name": "Carhue"
+      },
+      {
+        "name": "Cariló"
+      },
+      {
+        "name": "Carlos Casares"
+      },
+      {
+        "name": "Carlos Tejedor"
+      },
+      {
+        "name": "Carmen de Areco"
+      },
+      {
+        "name": "Carmen de Patagones"
+      },
+      {
+        "name": "Castelli"
+      },
+      {
+        "name": "Chacabuco"
+      },
+      {
+        "name": "Chascomús"
+      },
+      {
+        "name": "Chivilcoy"
+      },
+      {
+        "name": "Colón"
+      },
+      {
+        "name": "Coronel Dorrego"
+      },
+      {
+        "name": "Coronel Pringles"
+      },
+      {
+        "name": "Coronel Rosales"
+      },
+      {
+        "name": "Coronel Suarez"
+      },
+      {
+        "name": "Costa Azul"
+      },
+      {
+        "name": "Costa Chica"
+      },
+      {
+        "name": "Costa del Este"
+      },
+      {
+        "name": "Costa Esmeralda"
+      },
+      {
+        "name": "Daireaux"
+      },
+      {
+        "name": "Darregueira"
+      },
+      {
+        "name": "Del Viso"
+      },
+      {
+        "name": "Dolores"
+      },
+      {
+        "name": "Don Torcuato"
+      },
+      {
+        "name": "Ensenada"
+      },
+      {
+        "name": "Escobar"
+      },
+      {
+        "name": "Exaltación de la Cruz"
+      },
+      {
+        "name": "Florentino Ameghino"
+      },
+      {
+        "name": "Garín"
+      },
+      {
+        "name": "Gral. Alvarado"
+      },
+      {
+        "name": "Gral. Alvear"
+      },
+      {
+        "name": "Gral. Arenales"
+      },
+      {
+        "name": "Gral. Belgrano"
+      },
+      {
+        "name": "Gral. Guido"
+      },
+      {
+        "name": "Gral. Lamadrid"
+      },
+      {
+        "name": "Gral. Las Heras"
+      },
+      {
+        "name": "Gral. Lavalle"
+      },
+      {
+        "name": "Gral. Madariaga"
+      },
+      {
+        "name": "Gral. Pacheco"
+      },
+      {
+        "name": "Gral. Paz"
+      },
+      {
+        "name": "Gral. Pinto"
+      },
+      {
+        "name": "Gral. Pueyrredón"
+      },
+      {
+        "name": "Gral. Rodríguez"
+      },
+      {
+        "name": "Gral. Viamonte"
+      },
+      {
+        "name": "Gral. Villegas"
+      },
+      {
+        "name": "Guaminí"
+      },
+      {
+        "name": "Guernica"
+      },
+      {
+        "name": "Hipólito Yrigoyen"
+      },
+      {
+        "name": "Ing. Maschwitz"
+      },
+      {
+        "name": "Junín"
+      },
+      {
+        "name": "La Plata"
+      },
+      {
+        "name": "Laprida"
+      },
+      {
+        "name": "Las Flores"
+      },
+      {
+        "name": "Las Toninas"
+      },
+      {
+        "name": "Leandro N. Alem"
+      },
+      {
+        "name": "Lincoln"
+      },
+      {
+        "name": "Loberia"
+      },
+      {
+        "name": "Lobos"
+      },
+      {
+        "name": "Los Cardales"
+      },
+      {
+        "name": "Los Toldos"
+      },
+      {
+        "name": "Lucila del Mar"
+      },
+      {
+        "name": "Luján"
+      },
+      {
+        "name": "Magdalena"
+      },
+      {
+        "name": "Maipú"
+      },
+      {
+        "name": "Mar Chiquita"
+      },
+      {
+        "name": "Mar de Ajó"
+      },
+      {
+        "name": "Mar de las Pampas"
+      },
+      {
+        "name": "Mar del Plata"
+      },
+      {
+        "name": "Mar del Tuyú"
+      },
+      {
+        "name": "Marcos Paz"
+      },
+      {
+        "name": "Mercedes"
+      },
+      {
+        "name": "Miramar"
+      },
+      {
+        "name": "Monte"
+      },
+      {
+        "name": "Monte Hermoso"
+      },
+      {
+        "name": "Munro"
+      },
+      {
+        "name": "Navarro"
+      },
+      {
+        "name": "Necochea"
+      },
+      {
+        "name": "Olavarría"
+      },
+      {
+        "name": "Partido de la Costa"
+      },
+      {
+        "name": "Pehuajó"
+      },
+      {
+        "name": "Pellegrini"
+      },
+      {
+        "name": "Pergamino"
+      },
+      {
+        "name": "Pigüé"
+      },
+      {
+        "name": "Pila"
+      },
+      {
+        "name": "Pilar"
+      },
+      {
+        "name": "Pinamar"
+      },
+      {
+        "name": "Pinar del Sol"
+      },
+      {
+        "name": "Polvorines"
+      },
+      {
+        "name": "Pte. Perón"
+      },
+      {
+        "name": "Puán"
+      },
+      {
+        "name": "Punta Indio"
+      },
+      {
+        "name": "Ramallo"
+      },
+      {
+        "name": "Rauch"
+      },
+      {
+        "name": "Rivadavia"
+      },
+      {
+        "name": "Rojas"
+      },
+      {
+        "name": "Roque Pérez"
+      },
+      {
+        "name": "Saavedra"
+      },
+      {
+        "name": "Saladillo"
+      },
+      {
+        "name": "Salliqueló"
+      },
+      {
+        "name": "Salto"
+      },
+      {
+        "name": "San Andrés de Giles"
+      },
+      {
+        "name": "San Antonio de Areco"
+      },
+      {
+        "name": "San Antonio de Padua"
+      },
+      {
+        "name": "San Bernardo"
+      },
+      {
+        "name": "San Cayetano"
+      },
+      {
+        "name": "San Clemente del Tuyú"
+      },
+      {
+        "name": "San Nicolás"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Vicente"
+      },
+      {
+        "name": "Santa Teresita"
+      },
+      {
+        "name": "Suipacha"
+      },
+      {
+        "name": "Tandil"
+      },
+      {
+        "name": "Tapalqué"
+      },
+      {
+        "name": "Tordillo"
+      },
+      {
+        "name": "Tornquist"
+      },
+      {
+        "name": "Trenque Lauquen"
+      },
+      {
+        "name": "Tres Lomas"
+      },
+      {
+        "name": "Villa Gesell"
+      },
+      {
+        "name": "Villarino"
+      },
+      {
+        "name": "Zárate"
+      }
+    ]
+  },
+  {
+    "name": "Buenos Aires-GBA",
+    "cities": [
+      {
+        "name": "11 de Septiembre"
+      },
+      {
+        "name": "20 de Junio"
+      },
+      {
+        "name": "25 de Mayo"
+      },
+      {
+        "name": "Acassuso"
+      },
+      {
+        "name": "Adrogué"
+      },
+      {
+        "name": "Aldo Bonzi"
+      },
+      {
+        "name": "Área Reserva Cinturón Ecológico"
+      },
+      {
+        "name": "Avellaneda"
+      },
+      {
+        "name": "Banfield"
+      },
+      {
+        "name": "Barrio Parque"
+      },
+      {
+        "name": "Barrio Santa Teresita"
+      },
+      {
+        "name": "Beccar"
+      },
+      {
+        "name": "Bella Vista"
+      },
+      {
+        "name": "Berazategui"
+      },
+      {
+        "name": "Bernal Este"
+      },
+      {
+        "name": "Bernal Oeste"
+      },
+      {
+        "name": "Billinghurst"
+      },
+      {
+        "name": "Boulogne"
+      },
+      {
+        "name": "Burzaco"
+      },
+      {
+        "name": "Carapachay"
+      },
+      {
+        "name": "Caseros"
+      },
+      {
+        "name": "Castelar"
+      },
+      {
+        "name": "Churruca"
+      },
+      {
+        "name": "Ciudad Evita"
+      },
+      {
+        "name": "Ciudad Madero"
+      },
+      {
+        "name": "Ciudadela"
+      },
+      {
+        "name": "Claypole"
+      },
+      {
+        "name": "Crucecita"
+      },
+      {
+        "name": "Dock Sud"
+      },
+      {
+        "name": "Don Bosco"
+      },
+      {
+        "name": "Don Orione"
+      },
+      {
+        "name": "El Jagüel"
+      },
+      {
+        "name": "El Libertador"
+      },
+      {
+        "name": "El Palomar"
+      },
+      {
+        "name": "El Tala"
+      },
+      {
+        "name": "El Trébol"
+      },
+      {
+        "name": "Ezeiza"
+      },
+      {
+        "name": "Ezpeleta"
+      },
+      {
+        "name": "Florencio Varela"
+      },
+      {
+        "name": "Florida"
+      },
+      {
+        "name": "Francisco Álvarez"
+      },
+      {
+        "name": "Gerli"
+      },
+      {
+        "name": "Glew"
+      },
+      {
+        "name": "González Catán"
+      },
+      {
+        "name": "Gral. Lamadrid"
+      },
+      {
+        "name": "Grand Bourg"
+      },
+      {
+        "name": "Gregorio de Laferrere"
+      },
+      {
+        "name": "Guillermo Enrique Hudson"
+      },
+      {
+        "name": "Haedo"
+      },
+      {
+        "name": "Hurlingham"
+      },
+      {
+        "name": "Ing. Sourdeaux"
+      },
+      {
+        "name": "Isidro Casanova"
+      },
+      {
+        "name": "Ituzaingó"
+      },
+      {
+        "name": "José C. Paz"
+      },
+      {
+        "name": "José Ingenieros"
+      },
+      {
+        "name": "José Marmol"
+      },
+      {
+        "name": "La Lucila"
+      },
+      {
+        "name": "La Reja"
+      },
+      {
+        "name": "La Tablada"
+      },
+      {
+        "name": "Lanús"
+      },
+      {
+        "name": "Llavallol"
+      },
+      {
+        "name": "Loma Hermosa"
+      },
+      {
+        "name": "Lomas de Zamora"
+      },
+      {
+        "name": "Lomas del Millón"
+      },
+      {
+        "name": "Lomas del Mirador"
+      },
+      {
+        "name": "Longchamps"
+      },
+      {
+        "name": "Los Polvorines"
+      },
+      {
+        "name": "Luis Guillón"
+      },
+      {
+        "name": "Malvinas Argentinas"
+      },
+      {
+        "name": "Martín Coronado"
+      },
+      {
+        "name": "Martínez"
+      },
+      {
+        "name": "Merlo"
+      },
+      {
+        "name": "Ministro Rivadavia"
+      },
+      {
+        "name": "Monte Chingolo"
+      },
+      {
+        "name": "Monte Grande"
+      },
+      {
+        "name": "Moreno"
+      },
+      {
+        "name": "Morón"
+      },
+      {
+        "name": "Muñiz"
+      },
+      {
+        "name": "Olivos"
+      },
+      {
+        "name": "Pablo Nogués"
+      },
+      {
+        "name": "Pablo Podestá"
+      },
+      {
+        "name": "Paso del Rey"
+      },
+      {
+        "name": "Pereyra"
+      },
+      {
+        "name": "Piñeiro"
+      },
+      {
+        "name": "Plátanos"
+      },
+      {
+        "name": "Pontevedra"
+      },
+      {
+        "name": "Quilmes"
+      },
+      {
+        "name": "Rafael Calzada"
+      },
+      {
+        "name": "Rafael Castillo"
+      },
+      {
+        "name": "Ramos Mejía"
+      },
+      {
+        "name": "Ranelagh"
+      },
+      {
+        "name": "Remedios de Escalada"
+      },
+      {
+        "name": "Sáenz Peña"
+      },
+      {
+        "name": "San Antonio de Padua"
+      },
+      {
+        "name": "San Fernando"
+      },
+      {
+        "name": "San Francisco Solano"
+      },
+      {
+        "name": "San Isidro"
+      },
+      {
+        "name": "San José"
+      },
+      {
+        "name": "San Justo"
+      },
+      {
+        "name": "San Martín"
+      },
+      {
+        "name": "San Miguel"
+      },
+      {
+        "name": "Santos Lugares"
+      },
+      {
+        "name": "Sarandí"
+      },
+      {
+        "name": "Sourigues"
+      },
+      {
+        "name": "Tapiales"
+      },
+      {
+        "name": "Temperley"
+      },
+      {
+        "name": "Tigre"
+      },
+      {
+        "name": "Tortuguitas"
+      },
+      {
+        "name": "Tristán Suárez"
+      },
+      {
+        "name": "Trujui"
+      },
+      {
+        "name": "Turdera"
+      },
+      {
+        "name": "Valentín Alsina"
+      },
+      {
+        "name": "Vicente López"
+      },
+      {
+        "name": "Villa Adelina"
+      },
+      {
+        "name": "Villa Ballester"
+      },
+      {
+        "name": "Villa Bosch"
+      },
+      {
+        "name": "Villa Caraza"
+      },
+      {
+        "name": "Villa Celina"
+      },
+      {
+        "name": "Villa Centenario"
+      },
+      {
+        "name": "Villa de Mayo"
+      },
+      {
+        "name": "Villa Diamante"
+      },
+      {
+        "name": "Villa Domínico"
+      },
+      {
+        "name": "Villa España"
+      },
+      {
+        "name": "Villa Fiorito"
+      },
+      {
+        "name": "Villa Guillermina"
+      },
+      {
+        "name": "Villa Insuperable"
+      },
+      {
+        "name": "Villa José León Suárez"
+      },
+      {
+        "name": "Villa La Florida"
+      },
+      {
+        "name": "Villa Luzuriaga"
+      },
+      {
+        "name": "Villa Martelli"
+      },
+      {
+        "name": "Villa Obrera"
+      },
+      {
+        "name": "Villa Progreso"
+      },
+      {
+        "name": "Villa Raffo"
+      },
+      {
+        "name": "Villa Sarmiento"
+      },
+      {
+        "name": "Villa Tesei"
+      },
+      {
+        "name": "Villa Udaondo"
+      },
+      {
+        "name": "Virrey del Pino"
+      },
+      {
+        "name": "Wilde"
+      },
+      {
+        "name": "William Morris"
+      }
+    ]
+  },
+  {
+    "name": "Capital Federal",
+    "cities": [
+      {
+        "name": "Agronomía"
+      },
+      {
+        "name": "Almagro"
+      },
+      {
+        "name": "Balvanera"
+      },
+      {
+        "name": "Barracas"
+      },
+      {
+        "name": "Belgrano"
+      },
+      {
+        "name": "Boca"
+      },
+      {
+        "name": "Boedo"
+      },
+      {
+        "name": "Caballito"
+      },
+      {
+        "name": "Chacarita"
+      },
+      {
+        "name": "Coghlan"
+      },
+      {
+        "name": "Colegiales"
+      },
+      {
+        "name": "Constitución"
+      },
+      {
+        "name": "Flores"
+      },
+      {
+        "name": "Floresta"
+      },
+      {
+        "name": "La Paternal"
+      },
+      {
+        "name": "Liniers"
+      },
+      {
+        "name": "Mataderos"
+      },
+      {
+        "name": "Monserrat"
+      },
+      {
+        "name": "Monte Castro"
+      },
+      {
+        "name": "Nueva Pompeya"
+      },
+      {
+        "name": "Núñez"
+      },
+      {
+        "name": "Palermo"
+      },
+      {
+        "name": "Parque Avellaneda"
+      },
+      {
+        "name": "Parque Chacabuco"
+      },
+      {
+        "name": "Parque Chas"
+      },
+      {
+        "name": "Parque Patricios"
+      },
+      {
+        "name": "Puerto Madero"
+      },
+      {
+        "name": "Recoleta"
+      },
+      {
+        "name": "Retiro"
+      },
+      {
+        "name": "Saavedra"
+      },
+      {
+        "name": "San Cristóbal"
+      },
+      {
+        "name": "San Nicolás"
+      },
+      {
+        "name": "San Telmo"
+      },
+      {
+        "name": "Vélez Sársfield"
+      },
+      {
+        "name": "Versalles"
+      },
+      {
+        "name": "Villa Crespo"
+      },
+      {
+        "name": "Villa del Parque"
+      },
+      {
+        "name": "Villa Devoto"
+      },
+      {
+        "name": "Villa Gral. Mitre"
+      },
+      {
+        "name": "Villa Lugano"
+      },
+      {
+        "name": "Villa Luro"
+      },
+      {
+        "name": "Villa Ortúzar"
+      },
+      {
+        "name": "Villa Pueyrredón"
+      },
+      {
+        "name": "Villa Real"
+      },
+      {
+        "name": "Villa Riachuelo"
+      },
+      {
+        "name": "Villa Santa Rita"
+      },
+      {
+        "name": "Villa Soldati"
+      },
+      {
+        "name": "Villa Urquiza"
+      }
+    ]
+  },
+  {
+    "name": "Catamarca",
+    "cities": [
+      {
+        "name": "Aconquija"
+      },
+      {
+        "name": "Ancasti"
+      },
+      {
+        "name": "Andalgalá"
+      },
+      {
+        "name": "Antofagasta"
+      },
+      {
+        "name": "Belén"
+      },
+      {
+        "name": "Capayán"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "4"
+      },
+      {
+        "name": "Corral Quemado"
+      },
+      {
+        "name": "El Alto"
+      },
+      {
+        "name": "El Rodeo"
+      },
+      {
+        "name": "F.Mamerto Esquiú"
+      },
+      {
+        "name": "Fiambalá"
+      },
+      {
+        "name": "Hualfín"
+      },
+      {
+        "name": "Huillapima"
+      },
+      {
+        "name": "Icaño"
+      },
+      {
+        "name": "La Puerta"
+      },
+      {
+        "name": "Las Juntas"
+      },
+      {
+        "name": "Londres"
+      },
+      {
+        "name": "Los Altos"
+      },
+      {
+        "name": "Los Varela"
+      },
+      {
+        "name": "Mutquín"
+      },
+      {
+        "name": "Paclín"
+      },
+      {
+        "name": "Poman"
+      },
+      {
+        "name": "Pozo de La Piedra"
+      },
+      {
+        "name": "Puerta de Corral"
+      },
+      {
+        "name": "Puerta San José"
+      },
+      {
+        "name": "Recreo"
+      },
+      {
+        "name": "S.F.V de 4"
+      },
+      {
+        "name": "San Fernando"
+      },
+      {
+        "name": "San Fernando del Valle"
+      },
+      {
+        "name": "San José"
+      },
+      {
+        "name": "Santa María"
+      },
+      {
+        "name": "Santa Rosa"
+      },
+      {
+        "name": "Saujil"
+      },
+      {
+        "name": "Tapso"
+      },
+      {
+        "name": "Tinogasta"
+      },
+      {
+        "name": "Valle Viejo"
+      },
+      {
+        "name": "Villa Vil"
+      }
+    ]
+  },
+  {
+    "name": "Chaco",
+    "cities": [
+      {
+        "name": "Aviá Teraí"
+      },
+      {
+        "name": "Barranqueras"
+      },
+      {
+        "name": "Basail"
+      },
+      {
+        "name": "Campo Largo"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Capitán Solari"
+      },
+      {
+        "name": "Charadai"
+      },
+      {
+        "name": "Charata"
+      },
+      {
+        "name": "Chorotis"
+      },
+      {
+        "name": "Ciervo Petiso"
+      },
+      {
+        "name": "Cnel. Du Graty"
+      },
+      {
+        "name": "Col. Benítez"
+      },
+      {
+        "name": "Col. Elisa"
+      },
+      {
+        "name": "Col. Popular"
+      },
+      {
+        "name": "Colonias Unidas"
+      },
+      {
+        "name": "Concepción"
+      },
+      {
+        "name": "Corzuela"
+      },
+      {
+        "name": "Cote Lai"
+      },
+      {
+        "name": "El Sauzalito"
+      },
+      {
+        "name": "Enrique Urien"
+      },
+      {
+        "name": "Fontana"
+      },
+      {
+        "name": "Fte. Esperanza"
+      },
+      {
+        "name": "Gancedo"
+      },
+      {
+        "name": "Gral. Capdevila"
+      },
+      {
+        "name": "Gral. Pinero"
+      },
+      {
+        "name": "Gral. San Martín"
+      },
+      {
+        "name": "Gral. Vedia"
+      },
+      {
+        "name": "Hermoso Campo"
+      },
+      {
+        "name": "I. del Cerrito"
+      },
+      {
+        "name": "J.J. Castelli"
+      },
+      {
+        "name": "La Clotilde"
+      },
+      {
+        "name": "La Eduvigis"
+      },
+      {
+        "name": "La Escondida"
+      },
+      {
+        "name": "La Leonesa"
+      },
+      {
+        "name": "La Tigra"
+      },
+      {
+        "name": "La Verde"
+      },
+      {
+        "name": "Laguna Blanca"
+      },
+      {
+        "name": "Laguna Limpia"
+      },
+      {
+        "name": "Lapachito"
+      },
+      {
+        "name": "Las Breñas"
+      },
+      {
+        "name": "Las Garcitas"
+      },
+      {
+        "name": "Las Palmas"
+      },
+      {
+        "name": "Los Frentones"
+      },
+      {
+        "name": "Machagai"
+      },
+      {
+        "name": "Makallé"
+      },
+      {
+        "name": "Margarita Belén"
+      },
+      {
+        "name": "Miraflores"
+      },
+      {
+        "name": "Misión N. Pompeya"
+      },
+      {
+        "name": "Napenay"
+      },
+      {
+        "name": "Pampa Almirón"
+      },
+      {
+        "name": "Pampa del Indio"
+      },
+      {
+        "name": "Pampa del Infierno"
+      },
+      {
+        "name": "Pdcia. de La Plaza"
+      },
+      {
+        "name": "Pdcia. Roca"
+      },
+      {
+        "name": "Pdcia. Roque Sáenz Peña"
+      },
+      {
+        "name": "Pto. Bermejo"
+      },
+      {
+        "name": "Pto. Eva Perón"
+      },
+      {
+        "name": "Puero Tirol"
+      },
+      {
+        "name": "Puerto Vilelas"
+      },
+      {
+        "name": "Quitilipi"
+      },
+      {
+        "name": "Resistencia"
+      },
+      {
+        "name": "Sáenz Peña"
+      },
+      {
+        "name": "Samuhú"
+      },
+      {
+        "name": "San Bernardo"
+      },
+      {
+        "name": "Santa Sylvina"
+      },
+      {
+        "name": "Taco Pozo"
+      },
+      {
+        "name": "Tres Isletas"
+      },
+      {
+        "name": "Villa Ángela"
+      },
+      {
+        "name": "Villa Berthet"
+      },
+      {
+        "name": "Villa R. Bermejito"
+      }
+    ]
+  },
+  {
+    "name": "Chubut",
+    "cities": [
+      {
+        "name": "Aldea Apeleg"
+      },
+      {
+        "name": "Aldea Beleiro"
+      },
+      {
+        "name": "Aldea Epulef"
+      },
+      {
+        "name": "Alto Río Sengerr"
+      },
+      {
+        "name": "Buen Pasto"
+      },
+      {
+        "name": "Camarones"
+      },
+      {
+        "name": "Carrenleufú"
+      },
+      {
+        "name": "Cholila"
+      },
+      {
+        "name": "Co. Centinela"
+      },
+      {
+        "name": "Colan Conhué"
+      },
+      {
+        "name": "Comodoro Rivadavia"
+      },
+      {
+        "name": "Corcovado"
+      },
+      {
+        "name": "Cushamen"
+      },
+      {
+        "name": "Dique F. Ameghino"
+      },
+      {
+        "name": "Dolavón"
+      },
+      {
+        "name": "Dr. R. Rojas"
+      },
+      {
+        "name": "El Hoyo"
+      },
+      {
+        "name": "El Maitén"
+      },
+      {
+        "name": "Epuyén"
+      },
+      {
+        "name": "Esquel"
+      },
+      {
+        "name": "Facundo"
+      },
+      {
+        "name": "Gaimán"
+      },
+      {
+        "name": "Gan Gan"
+      },
+      {
+        "name": "Gastre"
+      },
+      {
+        "name": "Gdor. Costa"
+      },
+      {
+        "name": "Gualjaina"
+      },
+      {
+        "name": "J. de San Martín"
+      },
+      {
+        "name": "Lago Blanco"
+      },
+      {
+        "name": "Lago Puelo"
+      },
+      {
+        "name": "Lagunita Salada"
+      },
+      {
+        "name": "Las Plumas"
+      },
+      {
+        "name": "Los Altares"
+      },
+      {
+        "name": "Paso de los Indios"
+      },
+      {
+        "name": "Paso del Sapo"
+      },
+      {
+        "name": "Pto. Madryn"
+      },
+      {
+        "name": "Pto. Pirámides"
+      },
+      {
+        "name": "Rada Tilly"
+      },
+      {
+        "name": "Rawson"
+      },
+      {
+        "name": "Río Mayo"
+      },
+      {
+        "name": "Río Pico"
+      },
+      {
+        "name": "Sarmiento"
+      },
+      {
+        "name": "Tecka"
+      },
+      {
+        "name": "Telsen"
+      },
+      {
+        "name": "Trelew"
+      },
+      {
+        "name": "Trevelin"
+      },
+      {
+        "name": "Veintiocho de Julio"
+      }
+    ]
+  },
+  {
+    "name": "Córdoba",
+    "cities": [
+      {
+        "name": "Achiras"
+      },
+      {
+        "name": "Adelia Maria"
+      },
+      {
+        "name": "Agua de Oro"
+      },
+      {
+        "name": "Alcira Gigena"
+      },
+      {
+        "name": "Aldea Santa Maria"
+      },
+      {
+        "name": "Alejandro Roca"
+      },
+      {
+        "name": "Alejo Ledesma"
+      },
+      {
+        "name": "Alicia"
+      },
+      {
+        "name": "Almafuerte"
+      },
+      {
+        "name": "Alpa Corral"
+      },
+      {
+        "name": "Alta Gracia"
+      },
+      {
+        "name": "Alto Alegre"
+      },
+      {
+        "name": "Alto de Los Quebrachos"
+      },
+      {
+        "name": "Altos de Chipion"
+      },
+      {
+        "name": "Amboy"
+      },
+      {
+        "name": "Ambul"
+      },
+      {
+        "name": "Ana Zumaran"
+      },
+      {
+        "name": "Anisacate"
+      },
+      {
+        "name": "Arguello"
+      },
+      {
+        "name": "Arias"
+      },
+      {
+        "name": "Arroyito"
+      },
+      {
+        "name": "Arroyo Algodon"
+      },
+      {
+        "name": "Arroyo Cabral"
+      },
+      {
+        "name": "Arroyo Los Patos"
+      },
+      {
+        "name": "Assunta"
+      },
+      {
+        "name": "Atahona"
+      },
+      {
+        "name": "Ausonia"
+      },
+      {
+        "name": "Avellaneda"
+      },
+      {
+        "name": "Ballesteros"
+      },
+      {
+        "name": "Ballesteros Sud"
+      },
+      {
+        "name": "Balnearia"
+      },
+      {
+        "name": "Bañado de Soto"
+      },
+      {
+        "name": "Bell Ville"
+      },
+      {
+        "name": "Bengolea"
+      },
+      {
+        "name": "Benjamin Gould"
+      },
+      {
+        "name": "Berrotaran"
+      },
+      {
+        "name": "Bialet Masse"
+      },
+      {
+        "name": "Bouwer"
+      },
+      {
+        "name": "Brinkmann"
+      },
+      {
+        "name": "Buchardo"
+      },
+      {
+        "name": "Bulnes"
+      },
+      {
+        "name": "Cabalango"
+      },
+      {
+        "name": "Calamuchita"
+      },
+      {
+        "name": "Calchin"
+      },
+      {
+        "name": "Calchin Oeste"
+      },
+      {
+        "name": "Calmayo"
+      },
+      {
+        "name": "Camilo Aldao"
+      },
+      {
+        "name": "Caminiaga"
+      },
+      {
+        "name": "Cañada de Luque"
+      },
+      {
+        "name": "Cañada de Machado"
+      },
+      {
+        "name": "Cañada de Rio Pinto"
+      },
+      {
+        "name": "Cañada del Sauce"
+      },
+      {
+        "name": "Canals"
+      },
+      {
+        "name": "Candelaria Sud"
+      },
+      {
+        "name": "Capilla de Remedios"
+      },
+      {
+        "name": "Capilla de Siton"
+      },
+      {
+        "name": "Capilla del Carmen"
+      },
+      {
+        "name": "Capilla del Monte"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Capitan Gral B. O´Higgins"
+      },
+      {
+        "name": "Carnerillo"
+      },
+      {
+        "name": "Carrilobo"
+      },
+      {
+        "name": "Casa Grande"
+      },
+      {
+        "name": "Cavanagh"
+      },
+      {
+        "name": "Cerro Colorado"
+      },
+      {
+        "name": "Chaján"
+      },
+      {
+        "name": "Chalacea"
+      },
+      {
+        "name": "Chañar Viejo"
+      },
+      {
+        "name": "Chancaní"
+      },
+      {
+        "name": "Charbonier"
+      },
+      {
+        "name": "Charras"
+      },
+      {
+        "name": "Chazón"
+      },
+      {
+        "name": "Chilibroste"
+      },
+      {
+        "name": "Chucul"
+      },
+      {
+        "name": "Chuña"
+      },
+      {
+        "name": "Chuña Huasi"
+      },
+      {
+        "name": "Churqui Cañada"
+      },
+      {
+        "name": "Cienaga Del Coro"
+      },
+      {
+        "name": "Cintra"
+      },
+      {
+        "name": "Col. Almada"
+      },
+      {
+        "name": "Col. Anita"
+      },
+      {
+        "name": "Col. Barge"
+      },
+      {
+        "name": "Col. Bismark"
+      },
+      {
+        "name": "Col. Bremen"
+      },
+      {
+        "name": "Col. Caroya"
+      },
+      {
+        "name": "Col. Italiana"
+      },
+      {
+        "name": "Col. Iturraspe"
+      },
+      {
+        "name": "Col. Las Cuatro Esquinas"
+      },
+      {
+        "name": "Col. Las Pichanas"
+      },
+      {
+        "name": "Col. Marina"
+      },
+      {
+        "name": "Col. Prosperidad"
+      },
+      {
+        "name": "Col. San Bartolome"
+      },
+      {
+        "name": "Col. San Pedro"
+      },
+      {
+        "name": "Col. Tirolesa"
+      },
+      {
+        "name": "Col. Vicente Aguero"
+      },
+      {
+        "name": "Col. Videla"
+      },
+      {
+        "name": "Col. Vignaud"
+      },
+      {
+        "name": "Col. Waltelina"
+      },
+      {
+        "name": "Colazo"
+      },
+      {
+        "name": "Comechingones"
+      },
+      {
+        "name": "Conlara"
+      },
+      {
+        "name": "Copacabana"
+      },
+      {
+        "name": "7"
+      },
+      {
+        "name": "Coronel Baigorria"
+      },
+      {
+        "name": "Coronel Moldes"
+      },
+      {
+        "name": "Corral de Bustos"
+      },
+      {
+        "name": "Corralito"
+      },
+      {
+        "name": "Cosquín"
+      },
+      {
+        "name": "Costa Sacate"
+      },
+      {
+        "name": "Cruz Alta"
+      },
+      {
+        "name": "Cruz de Caña"
+      },
+      {
+        "name": "Cruz del Eje"
+      },
+      {
+        "name": "Cuesta Blanca"
+      },
+      {
+        "name": "Dean Funes"
+      },
+      {
+        "name": "Del Campillo"
+      },
+      {
+        "name": "Despeñaderos"
+      },
+      {
+        "name": "Devoto"
+      },
+      {
+        "name": "Diego de Rojas"
+      },
+      {
+        "name": "Dique Chico"
+      },
+      {
+        "name": "El Arañado"
+      },
+      {
+        "name": "El Brete"
+      },
+      {
+        "name": "El Chacho"
+      },
+      {
+        "name": "El Crispín"
+      },
+      {
+        "name": "El Fortín"
+      },
+      {
+        "name": "El Manzano"
+      },
+      {
+        "name": "El Rastreador"
+      },
+      {
+        "name": "El Rodeo"
+      },
+      {
+        "name": "El Tío"
+      },
+      {
+        "name": "Elena"
+      },
+      {
+        "name": "Embalse"
+      },
+      {
+        "name": "Esquina"
+      },
+      {
+        "name": "Estación Gral. Paz"
+      },
+      {
+        "name": "Estación Juárez Celman"
+      },
+      {
+        "name": "Estancia de Guadalupe"
+      },
+      {
+        "name": "Estancia Vieja"
+      },
+      {
+        "name": "Etruria"
+      },
+      {
+        "name": "Eufrasio Loza"
+      },
+      {
+        "name": "Falda del Carmen"
+      },
+      {
+        "name": "Freyre"
+      },
+      {
+        "name": "Gral. Baldissera"
+      },
+      {
+        "name": "Gral. Cabrera"
+      },
+      {
+        "name": "Gral. Deheza"
+      },
+      {
+        "name": "Gral. Fotheringham"
+      },
+      {
+        "name": "Gral. Levalle"
+      },
+      {
+        "name": "Gral. Roca"
+      },
+      {
+        "name": "Guanaco Muerto"
+      },
+      {
+        "name": "Guasapampa"
+      },
+      {
+        "name": "Guatimozin"
+      },
+      {
+        "name": "Gutenberg"
+      },
+      {
+        "name": "Hernando"
+      },
+      {
+        "name": "Huanchillas"
+      },
+      {
+        "name": "Huerta Grande"
+      },
+      {
+        "name": "Huinca Renanco"
+      },
+      {
+        "name": "Idiazabal"
+      },
+      {
+        "name": "Impira"
+      },
+      {
+        "name": "Inriville"
+      },
+      {
+        "name": "Isla Verde"
+      },
+      {
+        "name": "Italó"
+      },
+      {
+        "name": "James Craik"
+      },
+      {
+        "name": "Jesús María"
+      },
+      {
+        "name": "Jovita"
+      },
+      {
+        "name": "Justiniano Posse"
+      },
+      {
+        "name": "Km 658"
+      },
+      {
+        "name": "L. V. Mansilla"
+      },
+      {
+        "name": "La Batea"
+      },
+      {
+        "name": "La Calera"
+      },
+      {
+        "name": "La Carlota"
+      },
+      {
+        "name": "La Carolina"
+      },
+      {
+        "name": "La Cautiva"
+      },
+      {
+        "name": "La Cesira"
+      },
+      {
+        "name": "La Cruz"
+      },
+      {
+        "name": "La Cumbre"
+      },
+      {
+        "name": "La Cumbrecita"
+      },
+      {
+        "name": "La Falda"
+      },
+      {
+        "name": "La Francia"
+      },
+      {
+        "name": "La Granja"
+      },
+      {
+        "name": "La Higuera"
+      },
+      {
+        "name": "La Laguna"
+      },
+      {
+        "name": "La Paisanita"
+      },
+      {
+        "name": "La Palestina"
+      },
+      {
+        "name": "12"
+      },
+      {
+        "name": "La Paquita"
+      },
+      {
+        "name": "La Para"
+      },
+      {
+        "name": "La Paz"
+      },
+      {
+        "name": "La Playa"
+      },
+      {
+        "name": "La Playosa"
+      },
+      {
+        "name": "La Población"
+      },
+      {
+        "name": "La Posta"
+      },
+      {
+        "name": "La Puerta"
+      },
+      {
+        "name": "La Quinta"
+      },
+      {
+        "name": "La Rancherita"
+      },
+      {
+        "name": "La Rinconada"
+      },
+      {
+        "name": "La Serranita"
+      },
+      {
+        "name": "La Tordilla"
+      },
+      {
+        "name": "Laborde"
+      },
+      {
+        "name": "Laboulaye"
+      },
+      {
+        "name": "Laguna Larga"
+      },
+      {
+        "name": "Las Acequias"
+      },
+      {
+        "name": "Las Albahacas"
+      },
+      {
+        "name": "Las Arrias"
+      },
+      {
+        "name": "Las Bajadas"
+      },
+      {
+        "name": "Las Caleras"
+      },
+      {
+        "name": "Las Calles"
+      },
+      {
+        "name": "Las Cañadas"
+      },
+      {
+        "name": "Las Gramillas"
+      },
+      {
+        "name": "Las Higueras"
+      },
+      {
+        "name": "Las Isletillas"
+      },
+      {
+        "name": "Las Junturas"
+      },
+      {
+        "name": "Las Palmas"
+      },
+      {
+        "name": "Las Peñas"
+      },
+      {
+        "name": "Las Peñas Sud"
+      },
+      {
+        "name": "Las Perdices"
+      },
+      {
+        "name": "Las Playas"
+      },
+      {
+        "name": "Las Rabonas"
+      },
+      {
+        "name": "Las Saladas"
+      },
+      {
+        "name": "Las Tapias"
+      },
+      {
+        "name": "Las Varas"
+      },
+      {
+        "name": "Las Varillas"
+      },
+      {
+        "name": "Las Vertientes"
+      },
+      {
+        "name": "Leguizamón"
+      },
+      {
+        "name": "Leones"
+      },
+      {
+        "name": "Los Cedros"
+      },
+      {
+        "name": "Los Cerrillos"
+      },
+      {
+        "name": "Los Chañaritos (C.E)"
+      },
+      {
+        "name": "Los Chanaritos (R.S)"
+      },
+      {
+        "name": "Los Cisnes"
+      },
+      {
+        "name": "Los Cocos"
+      },
+      {
+        "name": "Los Cóndores"
+      },
+      {
+        "name": "Los Hornillos"
+      },
+      {
+        "name": "Los Hoyos"
+      },
+      {
+        "name": "Los Mistoles"
+      },
+      {
+        "name": "Los Molinos"
+      },
+      {
+        "name": "Los Pozos"
+      },
+      {
+        "name": "Los Reartes"
+      },
+      {
+        "name": "Los Surgentes"
+      },
+      {
+        "name": "Los Talares"
+      },
+      {
+        "name": "Los Zorros"
+      },
+      {
+        "name": "Lozada"
+      },
+      {
+        "name": "Luca"
+      },
+      {
+        "name": "Luque"
+      },
+      {
+        "name": "Luyaba"
+      },
+      {
+        "name": "Malagueño"
+      },
+      {
+        "name": "Malena"
+      },
+      {
+        "name": "Malvinas Argentinas"
+      },
+      {
+        "name": "Manfredi"
+      },
+      {
+        "name": "Maquinista Gallini"
+      },
+      {
+        "name": "Marcos Juárez"
+      },
+      {
+        "name": "Marull"
+      },
+      {
+        "name": "Matorrales"
+      },
+      {
+        "name": "Mattaldi"
+      },
+      {
+        "name": "Mayu Sumaj"
+      },
+      {
+        "name": "Media Naranja"
+      },
+      {
+        "name": "Melo"
+      },
+      {
+        "name": "Mendiolaza"
+      },
+      {
+        "name": "Mi Granja"
+      },
+      {
+        "name": "Mina Clavero"
+      },
+      {
+        "name": "Miramar"
+      },
+      {
+        "name": "Morrison"
+      },
+      {
+        "name": "Morteros"
+      },
+      {
+        "name": "Mte. Buey"
+      },
+      {
+        "name": "Mte. Cristo"
+      },
+      {
+        "name": "Mte. De Los Gauchos"
+      },
+      {
+        "name": "Mte. Leña"
+      },
+      {
+        "name": "Mte. Maíz"
+      },
+      {
+        "name": "Mte. Ralo"
+      },
+      {
+        "name": "Nicolás Bruzone"
+      },
+      {
+        "name": "Noetinger"
+      },
+      {
+        "name": "Nono"
+      },
+      {
+        "name": "Nueva 7"
+      },
+      {
+        "name": "Obispo Trejo"
+      },
+      {
+        "name": "Olaeta"
+      },
+      {
+        "name": "Oliva"
+      },
+      {
+        "name": "Olivares San Nicolás"
+      },
+      {
+        "name": "Onagolty"
+      },
+      {
+        "name": "Oncativo"
+      },
+      {
+        "name": "Ordoñez"
+      },
+      {
+        "name": "Pacheco De Melo"
+      },
+      {
+        "name": "Pampayasta N."
+      },
+      {
+        "name": "Pampayasta S."
+      },
+      {
+        "name": "Panaholma"
+      },
+      {
+        "name": "Pascanas"
+      },
+      {
+        "name": "Pasco"
+      },
+      {
+        "name": "Paso del Durazno"
+      },
+      {
+        "name": "Paso Viejo"
+      },
+      {
+        "name": "Pilar"
+      },
+      {
+        "name": "Pincén"
+      },
+      {
+        "name": "Piquillín"
+      },
+      {
+        "name": "Plaza de Mercedes"
+      },
+      {
+        "name": "Plaza Luxardo"
+      },
+      {
+        "name": "Porteña"
+      },
+      {
+        "name": "Potrero de Garay"
+      },
+      {
+        "name": "Pozo del Molle"
+      },
+      {
+        "name": "Pozo Nuevo"
+      },
+      {
+        "name": "Pueblo Italiano"
+      },
+      {
+        "name": "Puesto de Castro"
+      },
+      {
+        "name": "Punta del Agua"
+      },
+      {
+        "name": "Quebracho Herrado"
+      },
+      {
+        "name": "Quilino"
+      },
+      {
+        "name": "Rafael García"
+      },
+      {
+        "name": "Ranqueles"
+      },
+      {
+        "name": "Rayo Cortado"
+      },
+      {
+        "name": "Reducción"
+      },
+      {
+        "name": "Rincón"
+      },
+      {
+        "name": "Río Bamba"
+      },
+      {
+        "name": "Río Ceballos"
+      },
+      {
+        "name": "Río Cuarto"
+      },
+      {
+        "name": "Río de Los Sauces"
+      },
+      {
+        "name": "Río Primero"
+      },
+      {
+        "name": "Río Segundo"
+      },
+      {
+        "name": "Río Tercero"
+      },
+      {
+        "name": "Rosales"
+      },
+      {
+        "name": "Rosario del Saladillo"
+      },
+      {
+        "name": "Sacanta"
+      },
+      {
+        "name": "Sagrada Familia"
+      },
+      {
+        "name": "Saira"
+      },
+      {
+        "name": "Saladillo"
+      },
+      {
+        "name": "Saldán"
+      },
+      {
+        "name": "Salsacate"
+      },
+      {
+        "name": "Salsipuedes"
+      },
+      {
+        "name": "Sampacho"
+      },
+      {
+        "name": "San Agustín"
+      },
+      {
+        "name": "San Antonio de Arredondo"
+      },
+      {
+        "name": "San Antonio de Litín"
+      },
+      {
+        "name": "San Basilio"
+      },
+      {
+        "name": "San Carlos Minas"
+      },
+      {
+        "name": "San Clemente"
+      },
+      {
+        "name": "San Esteban"
+      },
+      {
+        "name": "San Francisco"
+      },
+      {
+        "name": "San Ignacio"
+      },
+      {
+        "name": "San Javier"
+      },
+      {
+        "name": "San Jerónimo"
+      },
+      {
+        "name": "San Joaquín"
+      },
+      {
+        "name": "San José de La Dormida"
+      },
+      {
+        "name": "San José de Las Salinas"
+      },
+      {
+        "name": "San Lorenzo"
+      },
+      {
+        "name": "San Marcos Sierras"
+      },
+      {
+        "name": "San Marcos Sud"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Pedro N."
+      },
+      {
+        "name": "San Roque"
+      },
+      {
+        "name": "San Vicente"
+      },
+      {
+        "name": "Santa Catalina"
+      },
+      {
+        "name": "Santa Elena"
+      },
+      {
+        "name": "Santa Eufemia"
+      },
+      {
+        "name": "Santa Maria"
+      },
+      {
+        "name": "Sarmiento"
+      },
+      {
+        "name": "Saturnino M.Laspiur"
+      },
+      {
+        "name": "Sauce Arriba"
+      },
+      {
+        "name": "Sebastián Elcano"
+      },
+      {
+        "name": "Seeber"
+      },
+      {
+        "name": "Segunda Usina"
+      },
+      {
+        "name": "Serrano"
+      },
+      {
+        "name": "Serrezuela"
+      },
+      {
+        "name": "Sgo. Temple"
+      },
+      {
+        "name": "Silvio Pellico"
+      },
+      {
+        "name": "Simbolar"
+      },
+      {
+        "name": "Sinsacate"
+      },
+      {
+        "name": "Sta. Rosa de Calamuchita"
+      },
+      {
+        "name": "Sta. Rosa de Río Primero"
+      },
+      {
+        "name": "Suco"
+      },
+      {
+        "name": "Tala Cañada"
+      },
+      {
+        "name": "Tala Huasi"
+      },
+      {
+        "name": "Talaini"
+      },
+      {
+        "name": "Tancacha"
+      },
+      {
+        "name": "Tanti"
+      },
+      {
+        "name": "Ticino"
+      },
+      {
+        "name": "Tinoco"
+      },
+      {
+        "name": "Tío Pujio"
+      },
+      {
+        "name": "Toledo"
+      },
+      {
+        "name": "Toro Pujio"
+      },
+      {
+        "name": "Tosno"
+      },
+      {
+        "name": "Tosquita"
+      },
+      {
+        "name": "Tránsito"
+      },
+      {
+        "name": "Tuclame"
+      },
+      {
+        "name": "Tutti"
+      },
+      {
+        "name": "Ucacha"
+      },
+      {
+        "name": "Unquillo"
+      },
+      {
+        "name": "Valle de Anisacate"
+      },
+      {
+        "name": "Valle Hermoso"
+      },
+      {
+        "name": "Vélez Sarfield"
+      },
+      {
+        "name": "Viamonte"
+      },
+      {
+        "name": "Vicuña Mackenna"
+      },
+      {
+        "name": "Villa Allende"
+      },
+      {
+        "name": "Villa Amancay"
+      },
+      {
+        "name": "Villa Ascasubi"
+      },
+      {
+        "name": "Villa Candelaria N."
+      },
+      {
+        "name": "Villa Carlos Paz"
+      },
+      {
+        "name": "Villa Cerro Azul"
+      },
+      {
+        "name": "Villa Ciudad de América"
+      },
+      {
+        "name": "Villa Ciudad Pque Los Reartes"
+      },
+      {
+        "name": "Villa Concepción del Tío"
+      },
+      {
+        "name": "Villa Cura Brochero"
+      },
+      {
+        "name": "Villa de Las Rosas"
+      },
+      {
+        "name": "Villa de María"
+      },
+      {
+        "name": "Villa de Pocho"
+      },
+      {
+        "name": "Villa de Soto"
+      },
+      {
+        "name": "Villa del Dique"
+      },
+      {
+        "name": "Villa del Prado"
+      },
+      {
+        "name": "Villa del Rosario"
+      },
+      {
+        "name": "Villa del Totoral"
+      },
+      {
+        "name": "Villa Dolores"
+      },
+      {
+        "name": "Villa El Chancay"
+      },
+      {
+        "name": "Villa Elisa"
+      },
+      {
+        "name": "Villa Flor Serrana"
+      },
+      {
+        "name": "Villa Fontana"
+      },
+      {
+        "name": "Villa Giardino"
+      },
+      {
+        "name": "Villa Gral. Belgrano"
+      },
+      {
+        "name": "Villa Gutierrez"
+      },
+      {
+        "name": "Villa Huidobro"
+      },
+      {
+        "name": "Villa La Bolsa"
+      },
+      {
+        "name": "Villa Los Aromos"
+      },
+      {
+        "name": "Villa Los Patos"
+      },
+      {
+        "name": "Villa María"
+      },
+      {
+        "name": "Villa Nueva"
+      },
+      {
+        "name": "Villa Pque. Santa Ana"
+      },
+      {
+        "name": "Villa Pque. Siquiman"
+      },
+      {
+        "name": "Villa Quillinzo"
+      },
+      {
+        "name": "Villa Rossi"
+      },
+      {
+        "name": "Villa Rumipal"
+      },
+      {
+        "name": "Villa San Esteban"
+      },
+      {
+        "name": "Villa San Isidro"
+      },
+      {
+        "name": "Villa 21"
+      },
+      {
+        "name": "Villa Sarmiento (G.R)"
+      },
+      {
+        "name": "Villa Sarmiento (S.A)"
+      },
+      {
+        "name": "Villa Tulumba"
+      },
+      {
+        "name": "Villa Valeria"
+      },
+      {
+        "name": "Villa Yacanto"
+      },
+      {
+        "name": "Washington"
+      },
+      {
+        "name": "Wenceslao Escalante"
+      },
+      {
+        "name": "Ycho Cruz Sierras"
+      }
+    ]
+  },
+  {
+    "name": "Corrientes",
+    "cities": [
+      {
+        "name": "Alvear"
+      },
+      {
+        "name": "Bella Vista"
+      },
+      {
+        "name": "Berón de Astrada"
+      },
+      {
+        "name": "Bonpland"
+      },
+      {
+        "name": "Caá Cati"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Chavarría"
+      },
+      {
+        "name": "Col. C. Pellegrini"
+      },
+      {
+        "name": "Col. Libertad"
+      },
+      {
+        "name": "Col. Liebig"
+      },
+      {
+        "name": "Col. Sta Rosa"
+      },
+      {
+        "name": "Concepción"
+      },
+      {
+        "name": "Cruz de Los Milagros"
+      },
+      {
+        "name": "Curuzú-Cuatiá"
+      },
+      {
+        "name": "Empedrado"
+      },
+      {
+        "name": "Esquina"
+      },
+      {
+        "name": "Estación Torrent"
+      },
+      {
+        "name": "Felipe Yofré"
+      },
+      {
+        "name": "Garruchos"
+      },
+      {
+        "name": "Gdor. Agrónomo"
+      },
+      {
+        "name": "Gdor. Martínez"
+      },
+      {
+        "name": "Goya"
+      },
+      {
+        "name": "Guaviravi"
+      },
+      {
+        "name": "Herlitzka"
+      },
+      {
+        "name": "Ita-Ibate"
+      },
+      {
+        "name": "Itatí"
+      },
+      {
+        "name": "Ituzaingó"
+      },
+      {
+        "name": "José Rafael Gómez"
+      },
+      {
+        "name": "Juan Pujol"
+      },
+      {
+        "name": "La Cruz"
+      },
+      {
+        "name": "Lavalle"
+      },
+      {
+        "name": "Lomas de Vallejos"
+      },
+      {
+        "name": "Loreto"
+      },
+      {
+        "name": "Mariano I. Loza"
+      },
+      {
+        "name": "Mburucuyá"
+      },
+      {
+        "name": "Mercedes"
+      },
+      {
+        "name": "Mocoretá"
+      },
+      {
+        "name": "Mte. Caseros"
+      },
+      {
+        "name": "Nueve de Julio"
+      },
+      {
+        "name": "Palmar Grande"
+      },
+      {
+        "name": "Parada Pucheta"
+      },
+      {
+        "name": "Paso de La Patria"
+      },
+      {
+        "name": "Paso de Los Libres"
+      },
+      {
+        "name": "Pedro R. Fernandez"
+      },
+      {
+        "name": "Perugorría"
+      },
+      {
+        "name": "Pueblo Libertador"
+      },
+      {
+        "name": "Ramada Paso"
+      },
+      {
+        "name": "Riachuelo"
+      },
+      {
+        "name": "Saladas"
+      },
+      {
+        "name": "San Antonio"
+      },
+      {
+        "name": "San Carlos"
+      },
+      {
+        "name": "San Cosme"
+      },
+      {
+        "name": "San Lorenzo"
+      },
+      {
+        "name": "20 del Palmar"
+      },
+      {
+        "name": "San Miguel"
+      },
+      {
+        "name": "San Roque"
+      },
+      {
+        "name": "Santa Ana"
+      },
+      {
+        "name": "Santa Lucía"
+      },
+      {
+        "name": "Santo Tomé"
+      },
+      {
+        "name": "Sauce"
+      },
+      {
+        "name": "Tabay"
+      },
+      {
+        "name": "Tapebicuá"
+      },
+      {
+        "name": "Tatacua"
+      },
+      {
+        "name": "Virasoro"
+      },
+      {
+        "name": "Yapeyú"
+      },
+      {
+        "name": "Yataití Calle"
+      }
+    ]
+  },
+  {
+    "name": "Entre Ríos",
+    "cities": [
+      {
+        "name": "Alarcón"
+      },
+      {
+        "name": "Alcaraz"
+      },
+      {
+        "name": "Alcaraz N."
+      },
+      {
+        "name": "Alcaraz S."
+      },
+      {
+        "name": "Aldea Asunción"
+      },
+      {
+        "name": "Aldea Brasilera"
+      },
+      {
+        "name": "Aldea Elgenfeld"
+      },
+      {
+        "name": "Aldea Grapschental"
+      },
+      {
+        "name": "Aldea Ma. Luisa"
+      },
+      {
+        "name": "Aldea Protestante"
+      },
+      {
+        "name": "Aldea Salto"
+      },
+      {
+        "name": "Aldea San Antonio (G)"
+      },
+      {
+        "name": "Aldea San Antonio (P)"
+      },
+      {
+        "name": "Aldea 19"
+      },
+      {
+        "name": "Aldea San Miguel"
+      },
+      {
+        "name": "Aldea San Rafael"
+      },
+      {
+        "name": "Aldea Spatzenkutter"
+      },
+      {
+        "name": "Aldea Sta. María"
+      },
+      {
+        "name": "Aldea Sta. Rosa"
+      },
+      {
+        "name": "Aldea Valle María"
+      },
+      {
+        "name": "Altamirano Sur"
+      },
+      {
+        "name": "Antelo"
+      },
+      {
+        "name": "Antonio Tomás"
+      },
+      {
+        "name": "Aranguren"
+      },
+      {
+        "name": "Arroyo Barú"
+      },
+      {
+        "name": "Arroyo Burgos"
+      },
+      {
+        "name": "Arroyo Clé"
+      },
+      {
+        "name": "Arroyo Corralito"
+      },
+      {
+        "name": "Arroyo del Medio"
+      },
+      {
+        "name": "Arroyo Maturrango"
+      },
+      {
+        "name": "Arroyo Palo Seco"
+      },
+      {
+        "name": "Banderas"
+      },
+      {
+        "name": "Basavilbaso"
+      },
+      {
+        "name": "Betbeder"
+      },
+      {
+        "name": "Bovril"
+      },
+      {
+        "name": "Caseros"
+      },
+      {
+        "name": "Ceibas"
+      },
+      {
+        "name": "Cerrito"
+      },
+      {
+        "name": "Chajarí"
+      },
+      {
+        "name": "Chilcas"
+      },
+      {
+        "name": "Clodomiro Ledesma"
+      },
+      {
+        "name": "Col. Alemana"
+      },
+      {
+        "name": "Col. Avellaneda"
+      },
+      {
+        "name": "Col. Avigdor"
+      },
+      {
+        "name": "Col. Ayuí"
+      },
+      {
+        "name": "Col. Baylina"
+      },
+      {
+        "name": "Col. Carrasco"
+      },
+      {
+        "name": "Col. Celina"
+      },
+      {
+        "name": "Col. Cerrito"
+      },
+      {
+        "name": "Col. Crespo"
+      },
+      {
+        "name": "Col. Elia"
+      },
+      {
+        "name": "Col. Ensayo"
+      },
+      {
+        "name": "Col. Gral. Roca"
+      },
+      {
+        "name": "Col. La Argentina"
+      },
+      {
+        "name": "Col. Merou"
+      },
+      {
+        "name": "Col. Oficial Nª3"
+      },
+      {
+        "name": "Col. Oficial Nº13"
+      },
+      {
+        "name": "Col. Oficial Nº14"
+      },
+      {
+        "name": "Col. Oficial Nº5"
+      },
+      {
+        "name": "Col. Reffino"
+      },
+      {
+        "name": "Col. Tunas"
+      },
+      {
+        "name": "Col. Viraró"
+      },
+      {
+        "name": "Colón"
+      },
+      {
+        "name": "Concepción del Uruguay"
+      },
+      {
+        "name": "Concordia"
+      },
+      {
+        "name": "Conscripto Bernardi"
+      },
+      {
+        "name": "Costa Grande"
+      },
+      {
+        "name": "Costa San Antonio"
+      },
+      {
+        "name": "Costa Uruguay N."
+      },
+      {
+        "name": "Costa Uruguay S."
+      },
+      {
+        "name": "Crespo"
+      },
+      {
+        "name": "Crucecitas 3ª"
+      },
+      {
+        "name": "Crucecitas 7ª"
+      },
+      {
+        "name": "Crucecitas 8ª"
+      },
+      {
+        "name": "Cuchilla Redonda"
+      },
+      {
+        "name": "Curtiembre"
+      },
+      {
+        "name": "Diamante"
+      },
+      {
+        "name": "Distrito 6º"
+      },
+      {
+        "name": "Distrito Chañar"
+      },
+      {
+        "name": "Distrito Chiqueros"
+      },
+      {
+        "name": "Distrito Cuarto"
+      },
+      {
+        "name": "Distrito Diego López"
+      },
+      {
+        "name": "Distrito Pajonal"
+      },
+      {
+        "name": "Distrito Sauce"
+      },
+      {
+        "name": "Distrito Tala"
+      },
+      {
+        "name": "Distrito Talitas"
+      },
+      {
+        "name": "Don Cristóbal 1ª Sección"
+      },
+      {
+        "name": "Don Cristóbal 2ª Sección"
+      },
+      {
+        "name": "Durazno"
+      },
+      {
+        "name": "El Cimarrón"
+      },
+      {
+        "name": "El Gramillal"
+      },
+      {
+        "name": "El Palenque"
+      },
+      {
+        "name": "El Pingo"
+      },
+      {
+        "name": "El Quebracho"
+      },
+      {
+        "name": "El Redomón"
+      },
+      {
+        "name": "El Solar"
+      },
+      {
+        "name": "Enrique Carbo"
+      },
+      {
+        "name": "9"
+      },
+      {
+        "name": "Espinillo N."
+      },
+      {
+        "name": "Estación Campos"
+      },
+      {
+        "name": "Estación Escriña"
+      },
+      {
+        "name": "Estación Lazo"
+      },
+      {
+        "name": "Estación Raíces"
+      },
+      {
+        "name": "Estación Yerúa"
+      },
+      {
+        "name": "Estancia Grande"
+      },
+      {
+        "name": "Estancia Líbaros"
+      },
+      {
+        "name": "Estancia Racedo"
+      },
+      {
+        "name": "Estancia Solá"
+      },
+      {
+        "name": "Estancia Yuquerí"
+      },
+      {
+        "name": "Estaquitas"
+      },
+      {
+        "name": "Faustino M. Parera"
+      },
+      {
+        "name": "Febre"
+      },
+      {
+        "name": "Federación"
+      },
+      {
+        "name": "Federal"
+      },
+      {
+        "name": "Gdor. Echagüe"
+      },
+      {
+        "name": "Gdor. Mansilla"
+      },
+      {
+        "name": "Gilbert"
+      },
+      {
+        "name": "González Calderón"
+      },
+      {
+        "name": "Gral. Almada"
+      },
+      {
+        "name": "Gral. Alvear"
+      },
+      {
+        "name": "Gral. Campos"
+      },
+      {
+        "name": "Gral. Galarza"
+      },
+      {
+        "name": "Gral. Ramírez"
+      },
+      {
+        "name": "Gualeguay"
+      },
+      {
+        "name": "Gualeguaychú"
+      },
+      {
+        "name": "Gualeguaycito"
+      },
+      {
+        "name": "Guardamonte"
+      },
+      {
+        "name": "Hambis"
+      },
+      {
+        "name": "Hasenkamp"
+      },
+      {
+        "name": "Hernandarias"
+      },
+      {
+        "name": "Hernández"
+      },
+      {
+        "name": "Herrera"
+      },
+      {
+        "name": "Hinojal"
+      },
+      {
+        "name": "Hocker"
+      },
+      {
+        "name": "Ing. Sajaroff"
+      },
+      {
+        "name": "Irazusta"
+      },
+      {
+        "name": "Isletas"
+      },
+      {
+        "name": "J.J De Urquiza"
+      },
+      {
+        "name": "Jubileo"
+      },
+      {
+        "name": "La Clarita"
+      },
+      {
+        "name": "La Criolla"
+      },
+      {
+        "name": "La Esmeralda"
+      },
+      {
+        "name": "La Florida"
+      },
+      {
+        "name": "La Fraternidad"
+      },
+      {
+        "name": "La Hierra"
+      },
+      {
+        "name": "La Ollita"
+      },
+      {
+        "name": "La Paz"
+      },
+      {
+        "name": "La Picada"
+      },
+      {
+        "name": "La Providencia"
+      },
+      {
+        "name": "La Verbena"
+      },
+      {
+        "name": "Laguna Benítez"
+      },
+      {
+        "name": "Larroque"
+      },
+      {
+        "name": "Las Cuevas"
+      },
+      {
+        "name": "Las Garzas"
+      },
+      {
+        "name": "Las Guachas"
+      },
+      {
+        "name": "Las Mercedes"
+      },
+      {
+        "name": "Las Moscas"
+      },
+      {
+        "name": "Las Mulitas"
+      },
+      {
+        "name": "Las Toscas"
+      },
+      {
+        "name": "Laurencena"
+      },
+      {
+        "name": "Libertador San Martín"
+      },
+      {
+        "name": "Loma Limpia"
+      },
+      {
+        "name": "Los Ceibos"
+      },
+      {
+        "name": "Los Charruas"
+      },
+      {
+        "name": "Los Conquistadores"
+      },
+      {
+        "name": "Lucas González"
+      },
+      {
+        "name": "Lucas N."
+      },
+      {
+        "name": "Lucas S. 1ª"
+      },
+      {
+        "name": "Lucas S. 2ª"
+      },
+      {
+        "name": "Maciá"
+      },
+      {
+        "name": "María Grande"
+      },
+      {
+        "name": "María Grande 2ª"
+      },
+      {
+        "name": "Médanos"
+      },
+      {
+        "name": "Mojones N."
+      },
+      {
+        "name": "Mojones S."
+      },
+      {
+        "name": "Molino Doll"
+      },
+      {
+        "name": "Monte Redondo"
+      },
+      {
+        "name": "Montoya"
+      },
+      {
+        "name": "Mulas Grandes"
+      },
+      {
+        "name": "Ñancay"
+      },
+      {
+        "name": "Nogoyá"
+      },
+      {
+        "name": "Nueva Escocia"
+      },
+      {
+        "name": "Nueva Vizcaya"
+      },
+      {
+        "name": "Ombú"
+      },
+      {
+        "name": "Oro Verde"
+      },
+      {
+        "name": "Paraná"
+      },
+      {
+        "name": "Pasaje Guayaquil"
+      },
+      {
+        "name": "Pasaje Las Tunas"
+      },
+      {
+        "name": "Paso de La Arena"
+      },
+      {
+        "name": "Paso de La Laguna"
+      },
+      {
+        "name": "Paso de Las Piedras"
+      },
+      {
+        "name": "Paso Duarte"
+      },
+      {
+        "name": "Pastor Britos"
+      },
+      {
+        "name": "Pedernal"
+      },
+      {
+        "name": "Perdices"
+      },
+      {
+        "name": "Picada Berón"
+      },
+      {
+        "name": "Piedras Blancas"
+      },
+      {
+        "name": "Primer Distrito Cuchilla"
+      },
+      {
+        "name": "Primero de Mayo"
+      },
+      {
+        "name": "Pronunciamiento"
+      },
+      {
+        "name": "Pto. Algarrobo"
+      },
+      {
+        "name": "Pto. Ibicuy"
+      },
+      {
+        "name": "Pueblo Brugo"
+      },
+      {
+        "name": "Pueblo Cazes"
+      },
+      {
+        "name": "Pueblo Gral. Belgrano"
+      },
+      {
+        "name": "Pueblo Liebig"
+      },
+      {
+        "name": "Puerto Yeruá"
+      },
+      {
+        "name": "Punta del Monte"
+      },
+      {
+        "name": "Quebracho"
+      },
+      {
+        "name": "Quinto Distrito"
+      },
+      {
+        "name": "Raices Oeste"
+      },
+      {
+        "name": "Rincón de Nogoyá"
+      },
+      {
+        "name": "Rincón del Cinto"
+      },
+      {
+        "name": "Rincón del Doll"
+      },
+      {
+        "name": "Rincón del Gato"
+      },
+      {
+        "name": "Rocamora"
+      },
+      {
+        "name": "Rosario del Tala"
+      },
+      {
+        "name": "San Benito"
+      },
+      {
+        "name": "San Cipriano"
+      },
+      {
+        "name": "San Ernesto"
+      },
+      {
+        "name": "San Gustavo"
+      },
+      {
+        "name": "San Jaime"
+      },
+      {
+        "name": "San José"
+      },
+      {
+        "name": "San José de Feliciano"
+      },
+      {
+        "name": "San Justo"
+      },
+      {
+        "name": "San Marcial"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Ramírez"
+      },
+      {
+        "name": "San Ramón"
+      },
+      {
+        "name": "San Roque"
+      },
+      {
+        "name": "San Salvador"
+      },
+      {
+        "name": "San Víctor"
+      },
+      {
+        "name": "Santa Ana"
+      },
+      {
+        "name": "Santa Anita"
+      },
+      {
+        "name": "Santa Elena"
+      },
+      {
+        "name": "Santa Lucía"
+      },
+      {
+        "name": "Santa Luisa"
+      },
+      {
+        "name": "Sauce de Luna"
+      },
+      {
+        "name": "Sauce Montrull"
+      },
+      {
+        "name": "Sauce Pinto"
+      },
+      {
+        "name": "Sauce Sur"
+      },
+      {
+        "name": "Seguí"
+      },
+      {
+        "name": "Sir Leonard"
+      },
+      {
+        "name": "Sosa"
+      },
+      {
+        "name": "Tabossi"
+      },
+      {
+        "name": "Tezanos Pinto"
+      },
+      {
+        "name": "Ubajay"
+      },
+      {
+        "name": "Urdinarrain"
+      },
+      {
+        "name": "Veinte de Septiembre"
+      },
+      {
+        "name": "Viale"
+      },
+      {
+        "name": "Victoria"
+      },
+      {
+        "name": "Villa Clara"
+      },
+      {
+        "name": "Villa del Rosario"
+      },
+      {
+        "name": "Villa Domínguez"
+      },
+      {
+        "name": "Villa Elisa"
+      },
+      {
+        "name": "Villa Fontana"
+      },
+      {
+        "name": "Villa Gdor. Etchevehere"
+      },
+      {
+        "name": "Villa Mantero"
+      },
+      {
+        "name": "Villa Paranacito"
+      },
+      {
+        "name": "Villa Urquiza"
+      },
+      {
+        "name": "Villaguay"
+      },
+      {
+        "name": "Walter Moss"
+      },
+      {
+        "name": "Yacaré"
+      },
+      {
+        "name": "Yeso Oeste"
+      }
+    ]
+  },
+  {
+    "name": "Formosa",
+    "cities": [
+      {
+        "name": "Buena Vista"
+      },
+      {
+        "name": "Clorinda"
+      },
+      {
+        "name": "Col. Pastoril"
+      },
+      {
+        "name": "Cte. Fontana"
+      },
+      {
+        "name": "El Colorado"
+      },
+      {
+        "name": "El Espinillo"
+      },
+      {
+        "name": "Estanislao Del Campo"
+      },
+      {
+        "name": "10"
+      },
+      {
+        "name": "Fortín Lugones"
+      },
+      {
+        "name": "Gral. Lucio V. Mansilla"
+      },
+      {
+        "name": "Gral. Manuel Belgrano"
+      },
+      {
+        "name": "Gral. Mosconi"
+      },
+      {
+        "name": "Gran Guardia"
+      },
+      {
+        "name": "Herradura"
+      },
+      {
+        "name": "Ibarreta"
+      },
+      {
+        "name": "Ing. Juárez"
+      },
+      {
+        "name": "Laguna Blanca"
+      },
+      {
+        "name": "Laguna Naick Neck"
+      },
+      {
+        "name": "Laguna Yema"
+      },
+      {
+        "name": "Las Lomitas"
+      },
+      {
+        "name": "Los Chiriguanos"
+      },
+      {
+        "name": "Mayor V. Villafañe"
+      },
+      {
+        "name": "Misión San Fco."
+      },
+      {
+        "name": "Palo Santo"
+      },
+      {
+        "name": "Pirané"
+      },
+      {
+        "name": "Pozo del Maza"
+      },
+      {
+        "name": "Riacho He-He"
+      },
+      {
+        "name": "San Hilario"
+      },
+      {
+        "name": "San Martín II"
+      },
+      {
+        "name": "Siete Palmas"
+      },
+      {
+        "name": "Subteniente Perín"
+      },
+      {
+        "name": "Tres Lagunas"
+      },
+      {
+        "name": "Villa Dos Trece"
+      },
+      {
+        "name": "Villa Escolar"
+      },
+      {
+        "name": "Villa Gral. Güemes"
+      }
+    ]
+  },
+  {
+    "name": "Jujuy",
+    "cities": [
+      {
+        "name": "Abdon Castro Tolay"
+      },
+      {
+        "name": "Abra Pampa"
+      },
+      {
+        "name": "Abralaite"
+      },
+      {
+        "name": "Aguas Calientes"
+      },
+      {
+        "name": "Arrayanal"
+      },
+      {
+        "name": "Barrios"
+      },
+      {
+        "name": "Caimancito"
+      },
+      {
+        "name": "Calilegua"
+      },
+      {
+        "name": "Cangrejillos"
+      },
+      {
+        "name": "Caspala"
+      },
+      {
+        "name": "Catuá"
+      },
+      {
+        "name": "Cieneguillas"
+      },
+      {
+        "name": "Coranzulli"
+      },
+      {
+        "name": "Cusi-Cusi"
+      },
+      {
+        "name": "El Aguilar"
+      },
+      {
+        "name": "El Carmen"
+      },
+      {
+        "name": "El Cóndor"
+      },
+      {
+        "name": "El Fuerte"
+      },
+      {
+        "name": "El Piquete"
+      },
+      {
+        "name": "El Talar"
+      },
+      {
+        "name": "Fraile Pintado"
+      },
+      {
+        "name": "Hipólito Yrigoyen"
+      },
+      {
+        "name": "Huacalera"
+      },
+      {
+        "name": "Humahuaca"
+      },
+      {
+        "name": "La Esperanza"
+      },
+      {
+        "name": "La Mendieta"
+      },
+      {
+        "name": "La Quiaca"
+      },
+      {
+        "name": "Ledesma"
+      },
+      {
+        "name": "Libertador Gral. San Martin"
+      },
+      {
+        "name": "Maimara"
+      },
+      {
+        "name": "Mina Pirquitas"
+      },
+      {
+        "name": "Monterrico"
+      },
+      {
+        "name": "Palma Sola"
+      },
+      {
+        "name": "Palpalá"
+      },
+      {
+        "name": "Pampa Blanca"
+      },
+      {
+        "name": "Pampichuela"
+      },
+      {
+        "name": "Perico"
+      },
+      {
+        "name": "Puesto del Marqués"
+      },
+      {
+        "name": "Puesto Viejo"
+      },
+      {
+        "name": "Pumahuasi"
+      },
+      {
+        "name": "Purmamarca"
+      },
+      {
+        "name": "Rinconada"
+      },
+      {
+        "name": "Rodeitos"
+      },
+      {
+        "name": "Rosario de Río Grande"
+      },
+      {
+        "name": "San Antonio"
+      },
+      {
+        "name": "San Francisco"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Rafael"
+      },
+      {
+        "name": "San Salvador"
+      },
+      {
+        "name": "Santa Ana"
+      },
+      {
+        "name": "Santa Catalina"
+      },
+      {
+        "name": "Santa Clara"
+      },
+      {
+        "name": "Susques"
+      },
+      {
+        "name": "Tilcara"
+      },
+      {
+        "name": "Tres Cruces"
+      },
+      {
+        "name": "Tumbaya"
+      },
+      {
+        "name": "Valle Grande"
+      },
+      {
+        "name": "Vinalito"
+      },
+      {
+        "name": "Volcán"
+      },
+      {
+        "name": "Yala"
+      },
+      {
+        "name": "Yaví"
+      },
+      {
+        "name": "Yuto"
+      }
+    ]
+  },
+  {
+    "name": "La Pampa",
+    "cities": [
+      {
+        "name": "Abramo"
+      },
+      {
+        "name": "Adolfo Van Praet"
+      },
+      {
+        "name": "Agustoni"
+      },
+      {
+        "name": "Algarrobo del Aguila"
+      },
+      {
+        "name": "Alpachiri"
+      },
+      {
+        "name": "Alta Italia"
+      },
+      {
+        "name": "Anguil"
+      },
+      {
+        "name": "Arata"
+      },
+      {
+        "name": "Ataliva Roca"
+      },
+      {
+        "name": "Bernardo Larroude"
+      },
+      {
+        "name": "Bernasconi"
+      },
+      {
+        "name": "Caleufú"
+      },
+      {
+        "name": "Carro Quemado"
+      },
+      {
+        "name": "Catriló"
+      },
+      {
+        "name": "Ceballos"
+      },
+      {
+        "name": "Chacharramendi"
+      },
+      {
+        "name": "Col. Barón"
+      },
+      {
+        "name": "Col. Santa María"
+      },
+      {
+        "name": "Conhelo"
+      },
+      {
+        "name": "Coronel Hilario Lagos"
+      },
+      {
+        "name": "Cuchillo-Có"
+      },
+      {
+        "name": "Doblas"
+      },
+      {
+        "name": "Dorila"
+      },
+      {
+        "name": "Eduardo Castex"
+      },
+      {
+        "name": "Embajador Martini"
+      },
+      {
+        "name": "Falucho"
+      },
+      {
+        "name": "Gral. Acha"
+      },
+      {
+        "name": "Gral. Manuel Campos"
+      },
+      {
+        "name": "Gral. Pico"
+      },
+      {
+        "name": "Guatraché"
+      },
+      {
+        "name": "Ing. Luiggi"
+      },
+      {
+        "name": "Intendente Alvear"
+      },
+      {
+        "name": "Jacinto Arauz"
+      },
+      {
+        "name": "La Adela"
+      },
+      {
+        "name": "La Humada"
+      },
+      {
+        "name": "La Maruja"
+      },
+      {
+        "name": "12"
+      },
+      {
+        "name": "La Reforma"
+      },
+      {
+        "name": "Limay Mahuida"
+      },
+      {
+        "name": "Lonquimay"
+      },
+      {
+        "name": "Loventuel"
+      },
+      {
+        "name": "Luan Toro"
+      },
+      {
+        "name": "Macachín"
+      },
+      {
+        "name": "Maisonnave"
+      },
+      {
+        "name": "Mauricio Mayer"
+      },
+      {
+        "name": "Metileo"
+      },
+      {
+        "name": "Miguel Cané"
+      },
+      {
+        "name": "Miguel Riglos"
+      },
+      {
+        "name": "Monte Nievas"
+      },
+      {
+        "name": "Parera"
+      },
+      {
+        "name": "Perú"
+      },
+      {
+        "name": "Pichi-Huinca"
+      },
+      {
+        "name": "Puelches"
+      },
+      {
+        "name": "Puelén"
+      },
+      {
+        "name": "Quehue"
+      },
+      {
+        "name": "Quemú Quemú"
+      },
+      {
+        "name": "Quetrequén"
+      },
+      {
+        "name": "Rancul"
+      },
+      {
+        "name": "Realicó"
+      },
+      {
+        "name": "Relmo"
+      },
+      {
+        "name": "Rolón"
+      },
+      {
+        "name": "Rucanelo"
+      },
+      {
+        "name": "Sarah"
+      },
+      {
+        "name": "Speluzzi"
+      },
+      {
+        "name": "Sta. Isabel"
+      },
+      {
+        "name": "Sta. Rosa"
+      },
+      {
+        "name": "Sta. Teresa"
+      },
+      {
+        "name": "Telén"
+      },
+      {
+        "name": "Toay"
+      },
+      {
+        "name": "Tomas M. de Anchorena"
+      },
+      {
+        "name": "Trenel"
+      },
+      {
+        "name": "Unanue"
+      },
+      {
+        "name": "Uriburu"
+      },
+      {
+        "name": "Veinticinco de Mayo"
+      },
+      {
+        "name": "Vertiz"
+      },
+      {
+        "name": "Victorica"
+      },
+      {
+        "name": "Villa Mirasol"
+      },
+      {
+        "name": "Winifreda"
+      }
+    ]
+  },
+  {
+    "name": "La Rioja",
+    "cities": [
+      {
+        "name": "Arauco"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Castro Barros"
+      },
+      {
+        "name": "Chamical"
+      },
+      {
+        "name": "Chilecito"
+      },
+      {
+        "name": "Coronel F. Varela"
+      },
+      {
+        "name": "Famatina"
+      },
+      {
+        "name": "Gral. A.V.Peñaloza"
+      },
+      {
+        "name": "Gral. Belgrano"
+      },
+      {
+        "name": "Gral. J.F. Quiroga"
+      },
+      {
+        "name": "Gral. Lamadrid"
+      },
+      {
+        "name": "Gral. Ocampo"
+      },
+      {
+        "name": "Gral. San Martín"
+      },
+      {
+        "name": "Independencia"
+      },
+      {
+        "name": "Rosario Penaloza"
+      },
+      {
+        "name": "San Blas de Los Sauces"
+      },
+      {
+        "name": "Sanagasta"
+      },
+      {
+        "name": "Vinchina"
+      }
+    ]
+  },
+  {
+    "name": "Mendoza",
+    "cities": [
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Chacras de Coria"
+      },
+      {
+        "name": "Dorrego"
+      },
+      {
+        "name": "Gllen"
+      },
+      {
+        "name": "Godoy Cruz"
+      },
+      {
+        "name": "Gral. Alvear"
+      },
+      {
+        "name": "Guaymallén"
+      },
+      {
+        "name": "Junín"
+      },
+      {
+        "name": "La Paz"
+      },
+      {
+        "name": "Las Heras"
+      },
+      {
+        "name": "Lavalle"
+      },
+      {
+        "name": "Luján"
+      },
+      {
+        "name": "Luján De Cuyo"
+      },
+      {
+        "name": "Maipú"
+      },
+      {
+        "name": "Malargüe"
+      },
+      {
+        "name": "Rivadavia"
+      },
+      {
+        "name": "San Carlos"
+      },
+      {
+        "name": "San Martín"
+      },
+      {
+        "name": "San Rafael"
+      },
+      {
+        "name": "Sta. Rosa"
+      },
+      {
+        "name": "Tunuyán"
+      },
+      {
+        "name": "Tupungato"
+      },
+      {
+        "name": "Villa Nueva"
+      }
+    ]
+  },
+  {
+    "name": "Misiones",
+    "cities": [
+      {
+        "name": "Alba Posse"
+      },
+      {
+        "name": "Almafuerte"
+      },
+      {
+        "name": "Apóstoles"
+      },
+      {
+        "name": "Aristóbulo Del Valle"
+      },
+      {
+        "name": "Arroyo Del Medio"
+      },
+      {
+        "name": "Azara"
+      },
+      {
+        "name": "Bdo. De Irigoyen"
+      },
+      {
+        "name": "Bonpland"
+      },
+      {
+        "name": "Caá Yari"
+      },
+      {
+        "name": "Campo Grande"
+      },
+      {
+        "name": "Campo Ramón"
+      },
+      {
+        "name": "Campo Viera"
+      },
+      {
+        "name": "Candelaria"
+      },
+      {
+        "name": "Capioví"
+      },
+      {
+        "name": "Caraguatay"
+      },
+      {
+        "name": "Cdte. Guacurarí"
+      },
+      {
+        "name": "Cerro Azul"
+      },
+      {
+        "name": "Cerro Corá"
+      },
+      {
+        "name": "Col. Alberdi"
+      },
+      {
+        "name": "Col. Aurora"
+      },
+      {
+        "name": "Col. Delicia"
+      },
+      {
+        "name": "Col. Polana"
+      },
+      {
+        "name": "Col. Victoria"
+      },
+      {
+        "name": "Col. Wanda"
+      },
+      {
+        "name": "Concepción De La Sierra"
+      },
+      {
+        "name": "Corpus"
+      },
+      {
+        "name": "Dos Arroyos"
+      },
+      {
+        "name": "Dos de Mayo"
+      },
+      {
+        "name": "El Alcázar"
+      },
+      {
+        "name": "El Dorado"
+      },
+      {
+        "name": "El Soberbio"
+      },
+      {
+        "name": "Esperanza"
+      },
+      {
+        "name": "F. Ameghino"
+      },
+      {
+        "name": "Fachinal"
+      },
+      {
+        "name": "Garuhapé"
+      },
+      {
+        "name": "Garupá"
+      },
+      {
+        "name": "Gdor. López"
+      },
+      {
+        "name": "Gdor. Roca"
+      },
+      {
+        "name": "Gral. Alvear"
+      },
+      {
+        "name": "Gral. Urquiza"
+      },
+      {
+        "name": "Guaraní"
+      },
+      {
+        "name": "H. Yrigoyen"
+      },
+      {
+        "name": "Iguazú"
+      },
+      {
+        "name": "Itacaruaré"
+      },
+      {
+        "name": "Jardín América"
+      },
+      {
+        "name": "Leandro N. Alem"
+      },
+      {
+        "name": "Libertad"
+      },
+      {
+        "name": "Loreto"
+      },
+      {
+        "name": "Los Helechos"
+      },
+      {
+        "name": "Mártires"
+      },
+      {
+        "name": "15"
+      },
+      {
+        "name": "Mojón Grande"
+      },
+      {
+        "name": "Montecarlo"
+      },
+      {
+        "name": "Nueve de Julio"
+      },
+      {
+        "name": "Oberá"
+      },
+      {
+        "name": "Olegario V. Andrade"
+      },
+      {
+        "name": "Panambí"
+      },
+      {
+        "name": "Posadas"
+      },
+      {
+        "name": "Profundidad"
+      },
+      {
+        "name": "Pto. Iguazú"
+      },
+      {
+        "name": "Pto. Leoni"
+      },
+      {
+        "name": "Pto. Piray"
+      },
+      {
+        "name": "Pto. Rico"
+      },
+      {
+        "name": "Ruiz de Montoya"
+      },
+      {
+        "name": "San Antonio"
+      },
+      {
+        "name": "San Ignacio"
+      },
+      {
+        "name": "San Javier"
+      },
+      {
+        "name": "San José"
+      },
+      {
+        "name": "San Martín"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Vicente"
+      },
+      {
+        "name": "Santiago De Liniers"
+      },
+      {
+        "name": "Santo Pipo"
+      },
+      {
+        "name": "Sta. Ana"
+      },
+      {
+        "name": "Sta. María"
+      },
+      {
+        "name": "Tres Capones"
+      },
+      {
+        "name": "Veinticinco de Mayo"
+      },
+      {
+        "name": "Wanda"
+      }
+    ]
+  },
+  {
+    "name": "Neuquén",
+    "cities": [
+      {
+        "name": "Aguada San Roque"
+      },
+      {
+        "name": "Aluminé"
+      },
+      {
+        "name": "Andacollo"
+      },
+      {
+        "name": "Añelo"
+      },
+      {
+        "name": "Bajada del Agrio"
+      },
+      {
+        "name": "Barrancas"
+      },
+      {
+        "name": "Buta Ranquil"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Caviahué"
+      },
+      {
+        "name": "Centenario"
+      },
+      {
+        "name": "Chorriaca"
+      },
+      {
+        "name": "Chos Malal"
+      },
+      {
+        "name": "Cipolletti"
+      },
+      {
+        "name": "Covunco Abajo"
+      },
+      {
+        "name": "Coyuco Cochico"
+      },
+      {
+        "name": "Cutral Có"
+      },
+      {
+        "name": "El Cholar"
+      },
+      {
+        "name": "El Huecú"
+      },
+      {
+        "name": "El Sauce"
+      },
+      {
+        "name": "Guañacos"
+      },
+      {
+        "name": "Huinganco"
+      },
+      {
+        "name": "Las Coloradas"
+      },
+      {
+        "name": "Las Lajas"
+      },
+      {
+        "name": "Las Ovejas"
+      },
+      {
+        "name": "Loncopué"
+      },
+      {
+        "name": "Los Catutos"
+      },
+      {
+        "name": "Los Chihuidos"
+      },
+      {
+        "name": "Los Miches"
+      },
+      {
+        "name": "Manzano Amargo"
+      },
+      {
+        "name": "16"
+      },
+      {
+        "name": "Octavio Pico"
+      },
+      {
+        "name": "Paso Aguerre"
+      },
+      {
+        "name": "Picún Leufú"
+      },
+      {
+        "name": "Piedra del Aguila"
+      },
+      {
+        "name": "Pilo Lil"
+      },
+      {
+        "name": "Plaza Huincul"
+      },
+      {
+        "name": "Plottier"
+      },
+      {
+        "name": "Quili Malal"
+      },
+      {
+        "name": "Ramón Castro"
+      },
+      {
+        "name": "Rincón de Los Sauces"
+      },
+      {
+        "name": "San Martín de Los Andes"
+      },
+      {
+        "name": "San Patricio del Chañar"
+      },
+      {
+        "name": "Santo Tomás"
+      },
+      {
+        "name": "Sauzal Bonito"
+      },
+      {
+        "name": "Senillosa"
+      },
+      {
+        "name": "Taquimilán"
+      },
+      {
+        "name": "Tricao Malal"
+      },
+      {
+        "name": "Varvarco"
+      },
+      {
+        "name": "Villa Curí Leuvu"
+      },
+      {
+        "name": "Villa del Nahueve"
+      },
+      {
+        "name": "Villa del Puente Picún Leuvú"
+      },
+      {
+        "name": "Villa El Chocón"
+      },
+      {
+        "name": "Villa La Angostura"
+      },
+      {
+        "name": "Villa Pehuenia"
+      },
+      {
+        "name": "Villa Traful"
+      },
+      {
+        "name": "Vista Alegre"
+      },
+      {
+        "name": "Zapala"
+      }
+    ]
+  },
+  {
+    "name": "Río Negro",
+    "cities": [
+      {
+        "name": "Aguada Cecilio"
+      },
+      {
+        "name": "Aguada de Guerra"
+      },
+      {
+        "name": "Allén"
+      },
+      {
+        "name": "Arroyo de La Ventana"
+      },
+      {
+        "name": "Arroyo Los Berros"
+      },
+      {
+        "name": "Bariloche"
+      },
+      {
+        "name": "Calte. Cordero"
+      },
+      {
+        "name": "Campo Grande"
+      },
+      {
+        "name": "Catriel"
+      },
+      {
+        "name": "Cerro Policía"
+      },
+      {
+        "name": "Cervantes"
+      },
+      {
+        "name": "Chelforo"
+      },
+      {
+        "name": "Chimpay"
+      },
+      {
+        "name": "Chinchinales"
+      },
+      {
+        "name": "Chipauquil"
+      },
+      {
+        "name": "Choele Choel"
+      },
+      {
+        "name": "Cinco Saltos"
+      },
+      {
+        "name": "Cipolletti"
+      },
+      {
+        "name": "Clemente Onelli"
+      },
+      {
+        "name": "Colán Conhue"
+      },
+      {
+        "name": "Comallo"
+      },
+      {
+        "name": "Comicó"
+      },
+      {
+        "name": "Cona Niyeu"
+      },
+      {
+        "name": "Coronel Belisle"
+      },
+      {
+        "name": "Cubanea"
+      },
+      {
+        "name": "Darwin"
+      },
+      {
+        "name": "Dina Huapi"
+      },
+      {
+        "name": "El Bolsón"
+      },
+      {
+        "name": "El Caín"
+      },
+      {
+        "name": "El Manso"
+      },
+      {
+        "name": "Gral. Conesa"
+      },
+      {
+        "name": "Gral. Enrique Godoy"
+      },
+      {
+        "name": "Gral. Fernandez Oro"
+      },
+      {
+        "name": "Gral. Roca"
+      },
+      {
+        "name": "Guardia Mitre"
+      },
+      {
+        "name": "Ing. Huergo"
+      },
+      {
+        "name": "Ing. Jacobacci"
+      },
+      {
+        "name": "Laguna Blanca"
+      },
+      {
+        "name": "Lamarque"
+      },
+      {
+        "name": "Las Grutas"
+      },
+      {
+        "name": "Los Menucos"
+      },
+      {
+        "name": "Luis Beltrán"
+      },
+      {
+        "name": "Mainqué"
+      },
+      {
+        "name": "Mamuel Choique"
+      },
+      {
+        "name": "Maquinchao"
+      },
+      {
+        "name": "Mencué"
+      },
+      {
+        "name": "Mtro. Ramos Mexia"
+      },
+      {
+        "name": "Nahuel Niyeu"
+      },
+      {
+        "name": "Naupa Huen"
+      },
+      {
+        "name": "Ñorquinco"
+      },
+      {
+        "name": "Ojos de Agua"
+      },
+      {
+        "name": "Paso de Agua"
+      },
+      {
+        "name": "Paso Flores"
+      },
+      {
+        "name": "Peñas Blancas"
+      },
+      {
+        "name": "Pichi Mahuida"
+      },
+      {
+        "name": "Pilcaniyeu"
+      },
+      {
+        "name": "Pomona"
+      },
+      {
+        "name": "Prahuaniyeu"
+      },
+      {
+        "name": "Rincón Treneta"
+      },
+      {
+        "name": "Río Chico"
+      },
+      {
+        "name": "Río Colorado"
+      },
+      {
+        "name": "Roca"
+      },
+      {
+        "name": "San Antonio Oeste"
+      },
+      {
+        "name": "San Javier"
+      },
+      {
+        "name": "Sierra Colorada"
+      },
+      {
+        "name": "Sierra Grande"
+      },
+      {
+        "name": "Sierra Pailemán"
+      },
+      {
+        "name": "Valcheta"
+      },
+      {
+        "name": "Valle Azul"
+      },
+      {
+        "name": "Viedma"
+      },
+      {
+        "name": "Villa Llanquín"
+      },
+      {
+        "name": "Villa Mascardi"
+      },
+      {
+        "name": "Villa Regina"
+      },
+      {
+        "name": "Yaminué"
+      }
+    ]
+  },
+  {
+    "name": "Salta",
+    "cities": [
+      {
+        "name": "A. Saravia"
+      },
+      {
+        "name": "Aguaray"
+      },
+      {
+        "name": "Angastaco"
+      },
+      {
+        "name": "Animaná"
+      },
+      {
+        "name": "Cachi"
+      },
+      {
+        "name": "Cafayate"
+      },
+      {
+        "name": "Campo Quijano"
+      },
+      {
+        "name": "Campo Santo"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Cerrillos"
+      },
+      {
+        "name": "Chicoana"
+      },
+      {
+        "name": "Col. Sta. Rosa"
+      },
+      {
+        "name": "Coronel Moldes"
+      },
+      {
+        "name": "El Bordo"
+      },
+      {
+        "name": "El Carril"
+      },
+      {
+        "name": "El Galpón"
+      },
+      {
+        "name": "El Jardín"
+      },
+      {
+        "name": "El Potrero"
+      },
+      {
+        "name": "El Quebrachal"
+      },
+      {
+        "name": "El Tala"
+      },
+      {
+        "name": "Embarcación"
+      },
+      {
+        "name": "Gral. Ballivian"
+      },
+      {
+        "name": "Gral. Güemes"
+      },
+      {
+        "name": "Gral. Mosconi"
+      },
+      {
+        "name": "Gral. Pizarro"
+      },
+      {
+        "name": "Guachipas"
+      },
+      {
+        "name": "Hipólito Yrigoyen"
+      },
+      {
+        "name": "Iruyá"
+      },
+      {
+        "name": "Isla De Cañas"
+      },
+      {
+        "name": "J. V. Gonzalez"
+      },
+      {
+        "name": "La Caldera"
+      },
+      {
+        "name": "La Candelaria"
+      },
+      {
+        "name": "La Merced"
+      },
+      {
+        "name": "La Poma"
+      },
+      {
+        "name": "La Viña"
+      },
+      {
+        "name": "Las Lajitas"
+      },
+      {
+        "name": "Los Toldos"
+      },
+      {
+        "name": "Metán"
+      },
+      {
+        "name": "Molinos"
+      },
+      {
+        "name": "Nazareno"
+      },
+      {
+        "name": "Orán"
+      },
+      {
+        "name": "Payogasta"
+      },
+      {
+        "name": "Pichanal"
+      },
+      {
+        "name": "Prof. S. Mazza"
+      },
+      {
+        "name": "Río Piedras"
+      },
+      {
+        "name": "Rivadavia Banda Norte"
+      },
+      {
+        "name": "Rivadavia Banda Sur"
+      },
+      {
+        "name": "Rosario de La Frontera"
+      },
+      {
+        "name": "Rosario de Lerma"
+      },
+      {
+        "name": "Saclantás"
+      },
+      {
+        "name": "18"
+      },
+      {
+        "name": "San Antonio"
+      },
+      {
+        "name": "San Carlos"
+      },
+      {
+        "name": "San José De Metán"
+      },
+      {
+        "name": "San Ramón"
+      },
+      {
+        "name": "Santa Victoria E."
+      },
+      {
+        "name": "Santa Victoria O."
+      },
+      {
+        "name": "Tartagal"
+      },
+      {
+        "name": "Tolar Grande"
+      },
+      {
+        "name": "Urundel"
+      },
+      {
+        "name": "Vaqueros"
+      },
+      {
+        "name": "Villa San Lorenzo"
+      }
+    ]
+  },
+  {
+    "name": "San Juan",
+    "cities": [
+      {
+        "name": "Albardón"
+      },
+      {
+        "name": "Angaco"
+      },
+      {
+        "name": "Calingasta"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Caucete"
+      },
+      {
+        "name": "Chimbas"
+      },
+      {
+        "name": "Iglesia"
+      },
+      {
+        "name": "Jachal"
+      },
+      {
+        "name": "Nueve de Julio"
+      },
+      {
+        "name": "Pocito"
+      },
+      {
+        "name": "Rawson"
+      },
+      {
+        "name": "Rivadavia"
+      },
+      {
+        "name": "19"
+      },
+      {
+        "name": "San Martín"
+      },
+      {
+        "name": "Santa Lucía"
+      },
+      {
+        "name": "Sarmiento"
+      },
+      {
+        "name": "Ullum"
+      },
+      {
+        "name": "Valle Fértil"
+      },
+      {
+        "name": "Veinticinco de Mayo"
+      },
+      {
+        "name": "Zonda"
+      }
+    ]
+  },
+  {
+    "name": "San Luis",
+    "cities": [
+      {
+        "name": "Alto Pelado"
+      },
+      {
+        "name": "Alto Pencoso"
+      },
+      {
+        "name": "Anchorena"
+      },
+      {
+        "name": "Arizona"
+      },
+      {
+        "name": "Bagual"
+      },
+      {
+        "name": "Balde"
+      },
+      {
+        "name": "Batavia"
+      },
+      {
+        "name": "Beazley"
+      },
+      {
+        "name": "Buena Esperanza"
+      },
+      {
+        "name": "Candelaria"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Carolina"
+      },
+      {
+        "name": "Carpintería"
+      },
+      {
+        "name": "Concarán"
+      },
+      {
+        "name": "Cortaderas"
+      },
+      {
+        "name": "El Morro"
+      },
+      {
+        "name": "El Trapiche"
+      },
+      {
+        "name": "El Volcán"
+      },
+      {
+        "name": "Fortín El Patria"
+      },
+      {
+        "name": "Fortuna"
+      },
+      {
+        "name": "Fraga"
+      },
+      {
+        "name": "Juan Jorba"
+      },
+      {
+        "name": "Juan Llerena"
+      },
+      {
+        "name": "Juana Koslay"
+      },
+      {
+        "name": "Justo Daract"
+      },
+      {
+        "name": "La Calera"
+      },
+      {
+        "name": "La Florida"
+      },
+      {
+        "name": "La Punilla"
+      },
+      {
+        "name": "La Toma"
+      },
+      {
+        "name": "Lafinur"
+      },
+      {
+        "name": "Las Aguadas"
+      },
+      {
+        "name": "Las Chacras"
+      },
+      {
+        "name": "Las Lagunas"
+      },
+      {
+        "name": "Las Vertientes"
+      },
+      {
+        "name": "Lavaisse"
+      },
+      {
+        "name": "Leandro N. Alem"
+      },
+      {
+        "name": "Los Molles"
+      },
+      {
+        "name": "Luján"
+      },
+      {
+        "name": "Mercedes"
+      },
+      {
+        "name": "Merlo"
+      },
+      {
+        "name": "Naschel"
+      },
+      {
+        "name": "Navia"
+      },
+      {
+        "name": "Nogolí"
+      },
+      {
+        "name": "Nueva Galia"
+      },
+      {
+        "name": "Papagayos"
+      },
+      {
+        "name": "Paso Grande"
+      },
+      {
+        "name": "Potrero de Los Funes"
+      },
+      {
+        "name": "Quines"
+      },
+      {
+        "name": "Renca"
+      },
+      {
+        "name": "Saladillo"
+      },
+      {
+        "name": "San Francisco"
+      },
+      {
+        "name": "San Gerónimo"
+      },
+      {
+        "name": "San Martín"
+      },
+      {
+        "name": "San Pablo"
+      },
+      {
+        "name": "Santa Rosa de Conlara"
+      },
+      {
+        "name": "Talita"
+      },
+      {
+        "name": "Tilisarao"
+      },
+      {
+        "name": "Unión"
+      },
+      {
+        "name": "Villa de La Quebrada"
+      },
+      {
+        "name": "Villa de Praga"
+      },
+      {
+        "name": "Villa del Carmen"
+      },
+      {
+        "name": "Villa Gral. Roca"
+      },
+      {
+        "name": "Villa Larca"
+      },
+      {
+        "name": "Villa Mercedes"
+      },
+      {
+        "name": "Zanjitas"
+      }
+    ]
+  },
+  {
+    "name": "Santa Cruz",
+    "cities": [
+      {
+        "name": "Calafate"
+      },
+      {
+        "name": "Caleta Olivia"
+      },
+      {
+        "name": "Cañadón Seco"
+      },
+      {
+        "name": "Comandante Piedrabuena"
+      },
+      {
+        "name": "El Calafate"
+      },
+      {
+        "name": "El Chaltén"
+      },
+      {
+        "name": "Gdor. Gregores"
+      },
+      {
+        "name": "Hipólito Yrigoyen"
+      },
+      {
+        "name": "Jaramillo"
+      },
+      {
+        "name": "Koluel Kaike"
+      },
+      {
+        "name": "Las Heras"
+      },
+      {
+        "name": "Los Antiguos"
+      },
+      {
+        "name": "Perito Moreno"
+      },
+      {
+        "name": "Pico Truncado"
+      },
+      {
+        "name": "Pto. Deseado"
+      },
+      {
+        "name": "Pto. San Julián"
+      },
+      {
+        "name": "Pto. 21"
+      },
+      {
+        "name": "Río Cuarto"
+      },
+      {
+        "name": "Río Gallegos"
+      },
+      {
+        "name": "Río Turbio"
+      },
+      {
+        "name": "Tres Lagos"
+      },
+      {
+        "name": "Veintiocho De Noviembre"
+      }
+    ]
+  },
+  {
+    "name": "Santa Fe",
+    "cities": [
+      {
+        "name": "Aarón Castellanos"
+      },
+      {
+        "name": "Acebal"
+      },
+      {
+        "name": "Aguará Grande"
+      },
+      {
+        "name": "Albarellos"
+      },
+      {
+        "name": "Alcorta"
+      },
+      {
+        "name": "Aldao"
+      },
+      {
+        "name": "Alejandra"
+      },
+      {
+        "name": "Álvarez"
+      },
+      {
+        "name": "Ambrosetti"
+      },
+      {
+        "name": "Amenábar"
+      },
+      {
+        "name": "Angélica"
+      },
+      {
+        "name": "Angeloni"
+      },
+      {
+        "name": "Arequito"
+      },
+      {
+        "name": "Arminda"
+      },
+      {
+        "name": "Armstrong"
+      },
+      {
+        "name": "Arocena"
+      },
+      {
+        "name": "Arroyo Aguiar"
+      },
+      {
+        "name": "Arroyo Ceibal"
+      },
+      {
+        "name": "Arroyo Leyes"
+      },
+      {
+        "name": "Arroyo Seco"
+      },
+      {
+        "name": "Arrufó"
+      },
+      {
+        "name": "Arteaga"
+      },
+      {
+        "name": "Ataliva"
+      },
+      {
+        "name": "Aurelia"
+      },
+      {
+        "name": "Avellaneda"
+      },
+      {
+        "name": "Barrancas"
+      },
+      {
+        "name": "Bauer Y Sigel"
+      },
+      {
+        "name": "Bella Italia"
+      },
+      {
+        "name": "Berabevú"
+      },
+      {
+        "name": "Berna"
+      },
+      {
+        "name": "Bernardo de Irigoyen"
+      },
+      {
+        "name": "Bigand"
+      },
+      {
+        "name": "Bombal"
+      },
+      {
+        "name": "Bouquet"
+      },
+      {
+        "name": "Bustinza"
+      },
+      {
+        "name": "Cabal"
+      },
+      {
+        "name": "Cacique Ariacaiquin"
+      },
+      {
+        "name": "Cafferata"
+      },
+      {
+        "name": "Calchaquí"
+      },
+      {
+        "name": "Campo Andino"
+      },
+      {
+        "name": "Campo Piaggio"
+      },
+      {
+        "name": "Cañada de Gómez"
+      },
+      {
+        "name": "Cañada del Ucle"
+      },
+      {
+        "name": "Cañada Rica"
+      },
+      {
+        "name": "Cañada Rosquín"
+      },
+      {
+        "name": "Candioti"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Capitán Bermúdez"
+      },
+      {
+        "name": "Capivara"
+      },
+      {
+        "name": "Carcarañá"
+      },
+      {
+        "name": "Carlos Pellegrini"
+      },
+      {
+        "name": "Carmen"
+      },
+      {
+        "name": "Carmen Del Sauce"
+      },
+      {
+        "name": "Carreras"
+      },
+      {
+        "name": "Carrizales"
+      },
+      {
+        "name": "Casalegno"
+      },
+      {
+        "name": "Casas"
+      },
+      {
+        "name": "Casilda"
+      },
+      {
+        "name": "Castelar"
+      },
+      {
+        "name": "Castellanos"
+      },
+      {
+        "name": "Cayastá"
+      },
+      {
+        "name": "Cayastacito"
+      },
+      {
+        "name": "Centeno"
+      },
+      {
+        "name": "Cepeda"
+      },
+      {
+        "name": "Ceres"
+      },
+      {
+        "name": "Chabás"
+      },
+      {
+        "name": "Chañar Ladeado"
+      },
+      {
+        "name": "Chapuy"
+      },
+      {
+        "name": "Chovet"
+      },
+      {
+        "name": "Christophersen"
+      },
+      {
+        "name": "Classon"
+      },
+      {
+        "name": "Cnel. Arnold"
+      },
+      {
+        "name": "Cnel. Bogado"
+      },
+      {
+        "name": "Cnel. Dominguez"
+      },
+      {
+        "name": "Cnel. Fraga"
+      },
+      {
+        "name": "Col. Aldao"
+      },
+      {
+        "name": "Col. Ana"
+      },
+      {
+        "name": "Col. Belgrano"
+      },
+      {
+        "name": "Col. Bicha"
+      },
+      {
+        "name": "Col. Bigand"
+      },
+      {
+        "name": "Col. Bossi"
+      },
+      {
+        "name": "Col. Cavour"
+      },
+      {
+        "name": "Col. Cello"
+      },
+      {
+        "name": "Col. Dolores"
+      },
+      {
+        "name": "Col. Dos Rosas"
+      },
+      {
+        "name": "Col. Durán"
+      },
+      {
+        "name": "Col. Iturraspe"
+      },
+      {
+        "name": "Col. Margarita"
+      },
+      {
+        "name": "Col. Mascias"
+      },
+      {
+        "name": "Col. Raquel"
+      },
+      {
+        "name": "Col. Rosa"
+      },
+      {
+        "name": "Col. San José"
+      },
+      {
+        "name": "Constanza"
+      },
+      {
+        "name": "Coronda"
+      },
+      {
+        "name": "Correa"
+      },
+      {
+        "name": "Crispi"
+      },
+      {
+        "name": "Cululú"
+      },
+      {
+        "name": "Curupayti"
+      },
+      {
+        "name": "Desvio Arijón"
+      },
+      {
+        "name": "Diaz"
+      },
+      {
+        "name": "Diego de Alvear"
+      },
+      {
+        "name": "Egusquiza"
+      },
+      {
+        "name": "El Arazá"
+      },
+      {
+        "name": "El Rabón"
+      },
+      {
+        "name": "El Sombrerito"
+      },
+      {
+        "name": "El Trébol"
+      },
+      {
+        "name": "Elisa"
+      },
+      {
+        "name": "Elortondo"
+      },
+      {
+        "name": "Emilia"
+      },
+      {
+        "name": "Empalme San Carlos"
+      },
+      {
+        "name": "Empalme Villa Constitucion"
+      },
+      {
+        "name": "Esmeralda"
+      },
+      {
+        "name": "Esperanza"
+      },
+      {
+        "name": "Estación Alvear"
+      },
+      {
+        "name": "Estacion Clucellas"
+      },
+      {
+        "name": "Esteban Rams"
+      },
+      {
+        "name": "Esther"
+      },
+      {
+        "name": "Esustolia"
+      },
+      {
+        "name": "Eusebia"
+      },
+      {
+        "name": "Felicia"
+      },
+      {
+        "name": "Fidela"
+      },
+      {
+        "name": "Fighiera"
+      },
+      {
+        "name": "Firmat"
+      },
+      {
+        "name": "Florencia"
+      },
+      {
+        "name": "Fortín Olmos"
+      },
+      {
+        "name": "Franck"
+      },
+      {
+        "name": "Fray Luis Beltrán"
+      },
+      {
+        "name": "Frontera"
+      },
+      {
+        "name": "Fuentes"
+      },
+      {
+        "name": "Funes"
+      },
+      {
+        "name": "Gaboto"
+      },
+      {
+        "name": "Galisteo"
+      },
+      {
+        "name": "Gálvez"
+      },
+      {
+        "name": "Garabalto"
+      },
+      {
+        "name": "Garibaldi"
+      },
+      {
+        "name": "Gato Colorado"
+      },
+      {
+        "name": "Gdor. Crespo"
+      },
+      {
+        "name": "Gessler"
+      },
+      {
+        "name": "Godoy"
+      },
+      {
+        "name": "Golondrina"
+      },
+      {
+        "name": "Gral. Gelly"
+      },
+      {
+        "name": "Gral. Lagos"
+      },
+      {
+        "name": "Granadero Baigorria"
+      },
+      {
+        "name": "Gregoria Perez De Denis"
+      },
+      {
+        "name": "Grutly"
+      },
+      {
+        "name": "Guadalupe N."
+      },
+      {
+        "name": "Gödeken"
+      },
+      {
+        "name": "Helvecia"
+      },
+      {
+        "name": "Hersilia"
+      },
+      {
+        "name": "Hipatía"
+      },
+      {
+        "name": "Huanqueros"
+      },
+      {
+        "name": "Hugentobler"
+      },
+      {
+        "name": "Hughes"
+      },
+      {
+        "name": "Humberto 1º"
+      },
+      {
+        "name": "Humboldt"
+      },
+      {
+        "name": "Ibarlucea"
+      },
+      {
+        "name": "Ing. Chanourdie"
+      },
+      {
+        "name": "Intiyaco"
+      },
+      {
+        "name": "Ituzaingó"
+      },
+      {
+        "name": "Jacinto L. Aráuz"
+      },
+      {
+        "name": "Josefina"
+      },
+      {
+        "name": "Juan B. Molina"
+      },
+      {
+        "name": "Juan de Garay"
+      },
+      {
+        "name": "Juncal"
+      },
+      {
+        "name": "La Brava"
+      },
+      {
+        "name": "La Cabral"
+      },
+      {
+        "name": "La Camila"
+      },
+      {
+        "name": "La Chispa"
+      },
+      {
+        "name": "La Clara"
+      },
+      {
+        "name": "La Criolla"
+      },
+      {
+        "name": "La Gallareta"
+      },
+      {
+        "name": "La Lucila"
+      },
+      {
+        "name": "La Pelada"
+      },
+      {
+        "name": "La Penca"
+      },
+      {
+        "name": "La Rubia"
+      },
+      {
+        "name": "La Sarita"
+      },
+      {
+        "name": "La Vanguardia"
+      },
+      {
+        "name": "Labordeboy"
+      },
+      {
+        "name": "Laguna Paiva"
+      },
+      {
+        "name": "Landeta"
+      },
+      {
+        "name": "Lanteri"
+      },
+      {
+        "name": "Larrechea"
+      },
+      {
+        "name": "Las Avispas"
+      },
+      {
+        "name": "Las Bandurrias"
+      },
+      {
+        "name": "Las Garzas"
+      },
+      {
+        "name": "Las Palmeras"
+      },
+      {
+        "name": "Las Parejas"
+      },
+      {
+        "name": "Las Petacas"
+      },
+      {
+        "name": "Las Rosas"
+      },
+      {
+        "name": "Las Toscas"
+      },
+      {
+        "name": "Las Tunas"
+      },
+      {
+        "name": "Lazzarino"
+      },
+      {
+        "name": "Lehmann"
+      },
+      {
+        "name": "Llambi Campbell"
+      },
+      {
+        "name": "Logroño"
+      },
+      {
+        "name": "Loma Alta"
+      },
+      {
+        "name": "López"
+      },
+      {
+        "name": "Los Amores"
+      },
+      {
+        "name": "Los Cardos"
+      },
+      {
+        "name": "Los Laureles"
+      },
+      {
+        "name": "Los Molinos"
+      },
+      {
+        "name": "Los Quirquinchos"
+      },
+      {
+        "name": "Lucio V. Lopez"
+      },
+      {
+        "name": "Luis Palacios"
+      },
+      {
+        "name": "Ma. Juana"
+      },
+      {
+        "name": "Ma. Luisa"
+      },
+      {
+        "name": "Ma. Susana"
+      },
+      {
+        "name": "Ma. Teresa"
+      },
+      {
+        "name": "Maciel"
+      },
+      {
+        "name": "Maggiolo"
+      },
+      {
+        "name": "Malabrigo"
+      },
+      {
+        "name": "Marcelino Escalada"
+      },
+      {
+        "name": "Margarita"
+      },
+      {
+        "name": "Matilde"
+      },
+      {
+        "name": "Mauá"
+      },
+      {
+        "name": "Máximo Paz"
+      },
+      {
+        "name": "Melincué"
+      },
+      {
+        "name": "Miguel Torres"
+      },
+      {
+        "name": "Moisés Ville"
+      },
+      {
+        "name": "Monigotes"
+      },
+      {
+        "name": "Monje"
+      },
+      {
+        "name": "Monte Obscuridad"
+      },
+      {
+        "name": "Monte Vera"
+      },
+      {
+        "name": "Montefiore"
+      },
+      {
+        "name": "Montes de Oca"
+      },
+      {
+        "name": "Murphy"
+      },
+      {
+        "name": "Ñanducita"
+      },
+      {
+        "name": "Naré"
+      },
+      {
+        "name": "Nelson"
+      },
+      {
+        "name": "Nicanor E. Molinas"
+      },
+      {
+        "name": "Nuevo Torino"
+      },
+      {
+        "name": "Oliveros"
+      },
+      {
+        "name": "Palacios"
+      },
+      {
+        "name": "Pavón"
+      },
+      {
+        "name": "Pavón Arriba"
+      },
+      {
+        "name": "Pedro Gómez Cello"
+      },
+      {
+        "name": "Pérez"
+      },
+      {
+        "name": "Peyrano"
+      },
+      {
+        "name": "Piamonte"
+      },
+      {
+        "name": "Pilar"
+      },
+      {
+        "name": "Piñero"
+      },
+      {
+        "name": "Plaza Clucellas"
+      },
+      {
+        "name": "Portugalete"
+      },
+      {
+        "name": "Pozo Borrado"
+      },
+      {
+        "name": "Progreso"
+      },
+      {
+        "name": "Providencia"
+      },
+      {
+        "name": "Pte. Roca"
+      },
+      {
+        "name": "Pueblo Andino"
+      },
+      {
+        "name": "Pueblo Esther"
+      },
+      {
+        "name": "Pueblo Gral. San Martín"
+      },
+      {
+        "name": "Pueblo Irigoyen"
+      },
+      {
+        "name": "Pueblo Marini"
+      },
+      {
+        "name": "Pueblo Muñoz"
+      },
+      {
+        "name": "Pueblo Uranga"
+      },
+      {
+        "name": "Pujato"
+      },
+      {
+        "name": "Pujato N."
+      },
+      {
+        "name": "Rafaela"
+      },
+      {
+        "name": "Ramayón"
+      },
+      {
+        "name": "Ramona"
+      },
+      {
+        "name": "Reconquista"
+      },
+      {
+        "name": "Recreo"
+      },
+      {
+        "name": "Ricardone"
+      },
+      {
+        "name": "Rivadavia"
+      },
+      {
+        "name": "Roldán"
+      },
+      {
+        "name": "Romang"
+      },
+      {
+        "name": "Rosario"
+      },
+      {
+        "name": "Rueda"
+      },
+      {
+        "name": "Rufino"
+      },
+      {
+        "name": "Sa Pereira"
+      },
+      {
+        "name": "Saguier"
+      },
+      {
+        "name": "Saladero M. Cabal"
+      },
+      {
+        "name": "Salto Grande"
+      },
+      {
+        "name": "San Agustín"
+      },
+      {
+        "name": "San Antonio de Obligado"
+      },
+      {
+        "name": "San Bernardo (N.J.)"
+      },
+      {
+        "name": "San Bernardo (S.J.)"
+      },
+      {
+        "name": "San Carlos Centro"
+      },
+      {
+        "name": "San Carlos N."
+      },
+      {
+        "name": "San Carlos S."
+      },
+      {
+        "name": "San Cristóbal"
+      },
+      {
+        "name": "San Eduardo"
+      },
+      {
+        "name": "San Eugenio"
+      },
+      {
+        "name": "San Fabián"
+      },
+      {
+        "name": "San Fco. de Santa Fé"
+      },
+      {
+        "name": "San Genaro"
+      },
+      {
+        "name": "San Genaro N."
+      },
+      {
+        "name": "San Gregorio"
+      },
+      {
+        "name": "San Guillermo"
+      },
+      {
+        "name": "San Javier"
+      },
+      {
+        "name": "San Jerónimo del Sauce"
+      },
+      {
+        "name": "San Jerónimo N."
+      },
+      {
+        "name": "San Jerónimo S."
+      },
+      {
+        "name": "San Jorge"
+      },
+      {
+        "name": "San José de La Esquina"
+      },
+      {
+        "name": "San José del Rincón"
+      },
+      {
+        "name": "San Justo"
+      },
+      {
+        "name": "San Lorenzo"
+      },
+      {
+        "name": "San Mariano"
+      },
+      {
+        "name": "San Martín de Las Escobas"
+      },
+      {
+        "name": "San Martín N."
+      },
+      {
+        "name": "San Vicente"
+      },
+      {
+        "name": "Sancti Spititu"
+      },
+      {
+        "name": "Sanford"
+      },
+      {
+        "name": "Santo Domingo"
+      },
+      {
+        "name": "Santo Tomé"
+      },
+      {
+        "name": "Santurce"
+      },
+      {
+        "name": "Sargento Cabral"
+      },
+      {
+        "name": "Sarmiento"
+      },
+      {
+        "name": "Sastre"
+      },
+      {
+        "name": "Sauce Viejo"
+      },
+      {
+        "name": "Serodino"
+      },
+      {
+        "name": "Silva"
+      },
+      {
+        "name": "Soldini"
+      },
+      {
+        "name": "Soledad"
+      },
+      {
+        "name": "Soutomayor"
+      },
+      {
+        "name": "Sta. Clara de Buena Vista"
+      },
+      {
+        "name": "Sta. Clara de Saguier"
+      },
+      {
+        "name": "Sta. Isabel"
+      },
+      {
+        "name": "Sta. Margarita"
+      },
+      {
+        "name": "Sta. Maria Centro"
+      },
+      {
+        "name": "Sta. María N."
+      },
+      {
+        "name": "Sta. Rosa"
+      },
+      {
+        "name": "Sta. Teresa"
+      },
+      {
+        "name": "Suardi"
+      },
+      {
+        "name": "Sunchales"
+      },
+      {
+        "name": "Susana"
+      },
+      {
+        "name": "Tacuarendí"
+      },
+      {
+        "name": "Tacural"
+      },
+      {
+        "name": "Tartagal"
+      },
+      {
+        "name": "Teodelina"
+      },
+      {
+        "name": "Theobald"
+      },
+      {
+        "name": "Timbúes"
+      },
+      {
+        "name": "Toba"
+      },
+      {
+        "name": "Tortugas"
+      },
+      {
+        "name": "Tostado"
+      },
+      {
+        "name": "Totoras"
+      },
+      {
+        "name": "Traill"
+      },
+      {
+        "name": "Venado Tuerto"
+      },
+      {
+        "name": "Vera"
+      },
+      {
+        "name": "Vera y Pintado"
+      },
+      {
+        "name": "Videla"
+      },
+      {
+        "name": "Vila"
+      },
+      {
+        "name": "Villa Amelia"
+      },
+      {
+        "name": "Villa Ana"
+      },
+      {
+        "name": "Villa Cañas"
+      },
+      {
+        "name": "Villa Constitución"
+      },
+      {
+        "name": "Villa Eloísa"
+      },
+      {
+        "name": "Villa Gdor. Gálvez"
+      },
+      {
+        "name": "Villa Guillermina"
+      },
+      {
+        "name": "Villa Minetti"
+      },
+      {
+        "name": "Villa Mugueta"
+      },
+      {
+        "name": "Villa Ocampo"
+      },
+      {
+        "name": "Villa San José"
+      },
+      {
+        "name": "Villa Saralegui"
+      },
+      {
+        "name": "Villa Trinidad"
+      },
+      {
+        "name": "Villada"
+      },
+      {
+        "name": "Virginia"
+      },
+      {
+        "name": "Wheelwright"
+      },
+      {
+        "name": "Zavalla"
+      },
+      {
+        "name": "Zenón Pereira"
+      }
+    ]
+  },
+  {
+    "name": "Santiago del Estero",
+    "cities": [
+      {
+        "name": "Añatuya"
+      },
+      {
+        "name": "Árraga"
+      },
+      {
+        "name": "Bandera"
+      },
+      {
+        "name": "Bandera Bajada"
+      },
+      {
+        "name": "Beltrán"
+      },
+      {
+        "name": "Brea Pozo"
+      },
+      {
+        "name": "Campo Gallo"
+      },
+      {
+        "name": "Capital"
+      },
+      {
+        "name": "Chilca Juliana"
+      },
+      {
+        "name": "Choya"
+      },
+      {
+        "name": "Clodomira"
+      },
+      {
+        "name": "Col. Alpina"
+      },
+      {
+        "name": "Col. Dora"
+      },
+      {
+        "name": "Col. El Simbolar Robles"
+      },
+      {
+        "name": "El Bobadal"
+      },
+      {
+        "name": "El Charco"
+      },
+      {
+        "name": "El Mojón"
+      },
+      {
+        "name": "Estación Atamisqui"
+      },
+      {
+        "name": "Estación Simbolar"
+      },
+      {
+        "name": "Fernández"
+      },
+      {
+        "name": "Fortín Inca"
+      },
+      {
+        "name": "Frías"
+      },
+      {
+        "name": "Garza"
+      },
+      {
+        "name": "Gramilla"
+      },
+      {
+        "name": "Guardia Escolta"
+      },
+      {
+        "name": "Herrera"
+      },
+      {
+        "name": "Icaño"
+      },
+      {
+        "name": "Ing. Forres"
+      },
+      {
+        "name": "La Banda"
+      },
+      {
+        "name": "La Cañada"
+      },
+      {
+        "name": "Laprida"
+      },
+      {
+        "name": "Lavalle"
+      },
+      {
+        "name": "Loreto"
+      },
+      {
+        "name": "Los Juríes"
+      },
+      {
+        "name": "Los Núñez"
+      },
+      {
+        "name": "Los Pirpintos"
+      },
+      {
+        "name": "Los Quiroga"
+      },
+      {
+        "name": "Los Telares"
+      },
+      {
+        "name": "Lugones"
+      },
+      {
+        "name": "Malbrán"
+      },
+      {
+        "name": "Matara"
+      },
+      {
+        "name": "Medellín"
+      },
+      {
+        "name": "Monte Quemado"
+      },
+      {
+        "name": "Nueva Esperanza"
+      },
+      {
+        "name": "Nueva Francia"
+      },
+      {
+        "name": "Palo Negro"
+      },
+      {
+        "name": "Pampa de Los Guanacos"
+      },
+      {
+        "name": "Pinto"
+      },
+      {
+        "name": "Pozo Hondo"
+      },
+      {
+        "name": "Quimilí"
+      },
+      {
+        "name": "Real Sayana"
+      },
+      {
+        "name": "Sachayoj"
+      },
+      {
+        "name": "San Pedro de Guasayán"
+      },
+      {
+        "name": "Selva"
+      },
+      {
+        "name": "Sol de Julio"
+      },
+      {
+        "name": "Sumampa"
+      },
+      {
+        "name": "Suncho Corral"
+      },
+      {
+        "name": "Taboada"
+      },
+      {
+        "name": "Tapso"
+      },
+      {
+        "name": "Termas de Rio Hondo"
+      },
+      {
+        "name": "Tintina"
+      },
+      {
+        "name": "Tomas Young"
+      },
+      {
+        "name": "Vilelas"
+      },
+      {
+        "name": "Villa Atamisqui"
+      },
+      {
+        "name": "Villa La Punta"
+      },
+      {
+        "name": "Villa Ojo de Agua"
+      },
+      {
+        "name": "Villa Río Hondo"
+      },
+      {
+        "name": "Villa Salavina"
+      },
+      {
+        "name": "Villa Unión"
+      },
+      {
+        "name": "Vilmer"
+      },
+      {
+        "name": "Weisburd"
+      }
+    ]
+  },
+  {
+    "name": "Tierra del Fuego",
+    "cities": [
+      {
+        "name": "Río Grande"
+      },
+      {
+        "name": "Tolhuin"
+      },
+      {
+        "name": "Ushuaia"
+      }
+    ]
+  },
+  {
+    "name": "Tucumán",
+    "cities": [
+      {
+        "name": "Acheral"
+      },
+      {
+        "name": "Agua Dulce"
+      },
+      {
+        "name": "Aguilares"
+      },
+      {
+        "name": "Alderetes"
+      },
+      {
+        "name": "Alpachiri"
+      },
+      {
+        "name": "Alto Verde"
+      },
+      {
+        "name": "Amaicha del Valle"
+      },
+      {
+        "name": "Amberes"
+      },
+      {
+        "name": "Ancajuli"
+      },
+      {
+        "name": "Arcadia"
+      },
+      {
+        "name": "Atahona"
+      },
+      {
+        "name": "Banda del Río Sali"
+      },
+      {
+        "name": "Bella Vista"
+      },
+      {
+        "name": "Buena Vista"
+      },
+      {
+        "name": "Burruyacú"
+      },
+      {
+        "name": "Capitán Cáceres"
+      },
+      {
+        "name": "Cevil Redondo"
+      },
+      {
+        "name": "Choromoro"
+      },
+      {
+        "name": "Ciudacita"
+      },
+      {
+        "name": "Colalao del Valle"
+      },
+      {
+        "name": "Colombres"
+      },
+      {
+        "name": "Concepción"
+      },
+      {
+        "name": "Delfín Gallo"
+      },
+      {
+        "name": "El Bracho"
+      },
+      {
+        "name": "El Cadillal"
+      },
+      {
+        "name": "El Cercado"
+      },
+      {
+        "name": "El Chañar"
+      },
+      {
+        "name": "El Manantial"
+      },
+      {
+        "name": "El Mojón"
+      },
+      {
+        "name": "El Mollar"
+      },
+      {
+        "name": "El Naranjito"
+      },
+      {
+        "name": "El Naranjo"
+      },
+      {
+        "name": "El Polear"
+      },
+      {
+        "name": "El Puestito"
+      },
+      {
+        "name": "El Sacrificio"
+      },
+      {
+        "name": "El Timbó"
+      },
+      {
+        "name": "Escaba"
+      },
+      {
+        "name": "Esquina"
+      },
+      {
+        "name": "Estación Aráoz"
+      },
+      {
+        "name": "Famaillá"
+      },
+      {
+        "name": "Gastone"
+      },
+      {
+        "name": "Gdor. Garmendia"
+      },
+      {
+        "name": "Gdor. Piedrabuena"
+      },
+      {
+        "name": "Graneros"
+      },
+      {
+        "name": "Huasa Pampa"
+      },
+      {
+        "name": "J. B. Alberdi"
+      },
+      {
+        "name": "La Cocha"
+      },
+      {
+        "name": "La Esperanza"
+      },
+      {
+        "name": "La Florida"
+      },
+      {
+        "name": "La Ramada"
+      },
+      {
+        "name": "La Trinidad"
+      },
+      {
+        "name": "Lamadrid"
+      },
+      {
+        "name": "Las Cejas"
+      },
+      {
+        "name": "Las Talas"
+      },
+      {
+        "name": "Las Talitas"
+      },
+      {
+        "name": "Los Bulacio"
+      },
+      {
+        "name": "Los Gómez"
+      },
+      {
+        "name": "Los Nogales"
+      },
+      {
+        "name": "Los Pereyra"
+      },
+      {
+        "name": "Los Pérez"
+      },
+      {
+        "name": "Los Puestos"
+      },
+      {
+        "name": "Los Ralos"
+      },
+      {
+        "name": "Los Sarmientos"
+      },
+      {
+        "name": "Los Sosa"
+      },
+      {
+        "name": "Lules"
+      },
+      {
+        "name": "M. García Fernández"
+      },
+      {
+        "name": "Manuela Pedraza"
+      },
+      {
+        "name": "Medinas"
+      },
+      {
+        "name": "Monte Bello"
+      },
+      {
+        "name": "Monteagudo"
+      },
+      {
+        "name": "Monteros"
+      },
+      {
+        "name": "Padre Monti"
+      },
+      {
+        "name": "Pampa Mayo"
+      },
+      {
+        "name": "Quilmes"
+      },
+      {
+        "name": "Raco"
+      },
+      {
+        "name": "Ranchillos"
+      },
+      {
+        "name": "Río Chico"
+      },
+      {
+        "name": "Río Colorado"
+      },
+      {
+        "name": "Río Seco"
+      },
+      {
+        "name": "Rumi Punco"
+      },
+      {
+        "name": "San Andrés"
+      },
+      {
+        "name": "San Felipe"
+      },
+      {
+        "name": "San Ignacio"
+      },
+      {
+        "name": "San Javier"
+      },
+      {
+        "name": "San José"
+      },
+      {
+        "name": "San Miguel de 25"
+      },
+      {
+        "name": "San Pedro"
+      },
+      {
+        "name": "San Pedro de Colalao"
+      },
+      {
+        "name": "Santa Rosa de Leales"
+      },
+      {
+        "name": "Sgto. Moya"
+      },
+      {
+        "name": "Siete de Abril"
+      },
+      {
+        "name": "Simoca"
+      },
+      {
+        "name": "Soldado Maldonado"
+      },
+      {
+        "name": "Sta. Ana"
+      },
+      {
+        "name": "Sta. Cruz"
+      },
+      {
+        "name": "Sta. Lucía"
+      },
+      {
+        "name": "Taco Ralo"
+      },
+      {
+        "name": "Tafí del Valle"
+      },
+      {
+        "name": "Tafí Viejo"
+      },
+      {
+        "name": "Tapia"
+      },
+      {
+        "name": "Teniente Berdina"
+      },
+      {
+        "name": "Trancas"
+      },
+      {
+        "name": "Villa Belgrano"
+      },
+      {
+        "name": "Villa Benjamín Araoz"
+      },
+      {
+        "name": "Villa Chiligasta"
+      },
+      {
+        "name": "Villa de Leales"
+      },
+      {
+        "name": "Villa Quinteros"
+      },
+      {
+        "name": "Yánima"
+      },
+      {
+        "name": "Yerba Buena"
+      },
+      {
+        "name": "Yerba Buena (S)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+Refactor HomePage and Dashboard components for improved functionality and UI
+
+- Integrated location selection with state and city dropdowns in HomePage, enhancing user experience for address input.
+- Updated search functionality to redirect users to the buscar page with query parameters based on selected location and guest count.
+- Enhanced Dashboard layout to display user plan information more clearly, including active plan details and current usage.
+- Added rejection reason handling in BookingDetailPage for declined bookings, improving communication with clients.
+- Updated AddressSearch component to support state and city selection with improved loading states and dropdown functionality.
+- Masked sensitive contact information in PostCard component to enhance privacy.
