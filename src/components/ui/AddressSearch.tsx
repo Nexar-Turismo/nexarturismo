@@ -255,9 +255,9 @@ export default function AddressSearch({
   };
 
   return (
-    <div className={`flex gap-2 ${className}`}>
+    <div className={`flex flex-col lg:flex-row gap-2 ${className}`}>
       {/* State Searchable Dropdown */}
-      <div className="flex-1 relative" ref={stateDropdownRef}>
+      <div className="w-full lg:flex-1 relative" ref={stateDropdownRef}>
         <div className="relative">
           {showSearchIcon && (
             <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4 pointer-events-none z-10" />
@@ -299,7 +299,7 @@ export default function AddressSearch({
       </div>
 
       {/* City Searchable Dropdown */}
-      <div className="flex-1 relative" ref={cityDropdownRef}>
+      <div className="w-full lg:flex-1 relative" ref={cityDropdownRef}>
         <div className="relative">
           <input
             type="text"

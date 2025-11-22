@@ -2,10 +2,16 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { motion } from 'framer-motion';
-import { Grid, List, Search, MapPin, DollarSign, Calendar, Bed, Home, ChevronLeft, ChevronRight, Check } from 'lucide-react';
+import { Grid, List, Search, MapPin, DollarSign, Calendar, Bed, Home, ChevronLeft, ChevronRight, Check, X, Filter } from 'lucide-react';
+import { AnimatePresence } from 'framer-motion';
 import { firebaseDB } from '@/services/firebaseService';
 import { BasePost, ServiceCategory } from '@/types';
 import PostCard from '@/components/ui/PostCard';
+import AdvertisementManager from '@/components/ui/AdvertisementManager';
+import InlineAdvertisement from '@/components/ui/InlineAdvertisement';
+import SidebarAdvertisement from '@/components/ui/SidebarAdvertisement';
+import { getAdvertisementForPage, getInlineAdvertisementForPage, getSidebarAdvertisementsForPage } from '@/config/advertisements';
+import { insertAdsBetweenPosts, PostOrAd } from '@/utils/advertisementUtils';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { categoryAmenities } from '@/services/dummyData';
 
@@ -25,6 +31,9 @@ const getAllAmenities = () => {
 
 function AlojamientosContent() {
   const searchParams = useSearchParams();
+  const alojamientosAdvertisement = getAdvertisementForPage('alojamientos');
+  const inlineAdvertisement = getInlineAdvertisementForPage('alojamientos');
+  const sidebarAds = getSidebarAdvertisementsForPage('alojamientos');
   const [posts, setPosts] = useState<BasePost[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -45,6 +54,7 @@ function AlojamientosContent() {
   const [selectedAmenities, setSelectedAmenities] = useState<string[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const router = useRouter();
 
   // Update category when URL changes
@@ -227,6 +237,12 @@ function AlojamientosContent() {
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
+  // Insert inline advertisements between posts (calculated based on total posts)
+  const postsWithAds: PostOrAd[] = insertAdsBetweenPosts(
+    currentPosts,
+    inlineAdvertisement
+  );
+
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -258,29 +274,31 @@ function AlojamientosContent() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto p-8">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-8"
-        >
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
-            Alojamientos
-          </h1>
-          <p className="text-gray-600 dark:text-gray-300">
-            Encuentra el lugar perfecto para tu estadía
-          </p>
-        </motion.div>
+      <div className="flex">
+        {/* Main Content Container */}
+        <div className="flex-1 max-w-7xl mx-auto p-8">
+          {/* Header */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mb-8"
+          >
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
+              Alojamientos
+            </h1>
+            <p className="text-gray-600 dark:text-gray-300">
+              Encuentra el lugar perfecto para tu estadía
+            </p>
+          </motion.div>
 
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Sidebar Filters */}
+          <div className="flex flex-col lg:flex-row gap-8">
+          {/* Sidebar Filters - Hidden on mobile */}
           <motion.aside
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="lg:w-80 flex-shrink-0"
+            className="hidden lg:block lg:w-80 flex-shrink-0"
           >
             <div className="glass rounded-xl p-6 sticky top-8 space-y-6">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
@@ -586,21 +604,41 @@ function AlojamientosContent() {
                     ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' 
                     : 'space-y-4'
                   }>
-                    {currentPosts.map((post, index) => (
-                      <motion.div
-                        key={post.id}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.4, delay: index * 0.05 }}
-                      >
-                        <PostCard 
-                          post={post} 
-                          onClick={() => handlePostClick(post.id)}
-                          showStatus={false}
-                          imageHeight="md"
-                        />
-                      </motion.div>
-                    ))}
+                    {postsWithAds.map((item, index) => {
+                      if (item.type === 'ad') {
+                        // Ad should be same size as post card
+                        return (
+                          <motion.div
+                            key={`ad-${index}`}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                          >
+                            <InlineAdvertisement 
+                              advertisement={item.data as any}
+                              imageHeight="md"
+                            />
+                          </motion.div>
+                        );
+                      }
+                      
+                      const post = item.data as any;
+                      return (
+                        <motion.div
+                          key={post.id}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                        >
+                          <PostCard 
+                            post={post} 
+                            onClick={() => handlePostClick(post.id)}
+                            showStatus={false}
+                            imageHeight="md"
+                          />
+                        </motion.div>
+                      );
+                    })}
                   </div>
 
                   {/* Pagination */}
@@ -660,6 +698,309 @@ function AlojamientosContent() {
             </motion.div>
           </div>
         </div>
+
+        
+      </div>
+
+      {/* Right Sidebar Advertisements - Static side section */}
+      {sidebarAds && sidebarAds.length > 0 && (
+          <motion.aside
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="hidden xl:block w-64 flex-shrink-0 p-8"
+          >
+            <div className="sticky top-8 space-y-6">
+              {sidebarAds.map((ad, index) => (
+                <SidebarAdvertisement
+                  key={ad.id || `sidebar-ad-${index}`}
+                  advertisement={ad}
+                  className="w-full"
+                />
+              ))}
+            </div>
+          </motion.aside>
+        )}
+
+      {/* Filter Modal - Mobile Only */}
+        <AnimatePresence>
+          {isFilterModalOpen && (
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="fixed inset-0 bg-black bg-opacity-50 z-50 lg:hidden"
+                onClick={() => setIsFilterModalOpen(false)}
+              />
+              <motion.div
+                initial={{ y: '100%' }}
+                animate={{ y: 0 }}
+                exit={{ y: '100%' }}
+                transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+                className="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 rounded-t-3xl shadow-2xl z-50 max-h-[90vh] overflow-y-auto lg:hidden"
+              >
+                <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-4 flex items-center justify-between z-10">
+                  <h2 className="text-xl font-bold text-gray-900 dark:text-white">
+                    Filtros
+                  </h2>
+                  <button
+                    onClick={() => setIsFilterModalOpen(false)}
+                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+                  >
+                    <X className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+                  </button>
+                </div>
+                <div className="p-6 space-y-6">
+                  {/* Text Search */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      Buscar
+                    </label>
+                    <div className="relative">
+                      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+                      <input
+                        type="text"
+                        placeholder="Buscar..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Location Filters */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <MapPin className="w-4 h-4 inline mr-1" />
+                      Ubicación
+                    </label>
+                    <div className="space-y-3">
+                      {/* State Filter */}
+                      <div>
+                        <label className="block text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
+                          Provincia/Estado
+                        </label>
+                        <select
+                          value={selectedState}
+                          onChange={(e) => {
+                            setSelectedState(e.target.value);
+                            setSelectedCity('');
+                            setCitySearchTerm('');
+                          }}
+                          disabled={loadingStates}
+                          className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50"
+                        >
+                          <option value="">Seleccionar provincia/estado</option>
+                          {states.map((state) => (
+                            <option key={state.id} value={state.code}>
+                              {state.name}
+                            </option>
+                          ))}
+                        </select>
+                        {loadingStates && (
+                          <p className="text-xs text-gray-500 mt-1">Cargando provincias...</p>
+                        )}
+                      </div>
+
+                      {/* City Filter */}
+                      <div className="relative city-dropdown-container">
+                        <label className="block text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
+                          Ciudad
+                        </label>
+                        <div className="relative">
+                          <input
+                            type="text"
+                            value={citySearchTerm}
+                            onChange={handleCitySearchChange}
+                            onFocus={() => setShowCityDropdown(true)}
+                            placeholder={!selectedState ? "Selecciona una provincia primero" : "Buscar ciudad..."}
+                            disabled={!selectedState || loadingCities}
+                            className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50"
+                          />
+                          
+                          {/* Dropdown */}
+                          {showCityDropdown && selectedState && !loadingCities && filteredCities.length > 0 && (
+                            <div className="absolute z-[100] w-full mt-1 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg max-h-60 overflow-y-auto">
+                              {filteredCities.slice(0, 50).map((city) => (
+                                <button
+                                  key={city.id}
+                                  type="button"
+                                  onClick={() => handleCitySelect(city)}
+                                  className="w-full px-3 py-2 text-left text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 focus:bg-gray-100 dark:focus:bg-gray-700 focus:outline-none"
+                                >
+                                  {city.name}
+                                </button>
+                              ))}
+                              {filteredCities.length > 50 && (
+                                <div className="px-3 py-2 text-xs text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
+                                  Mostrando las primeras 50 ciudades. Usa la búsqueda para filtrar.
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                        
+                        {loadingCities && (
+                          <p className="text-xs text-gray-500 mt-1">Cargando ciudades...</p>
+                        )}
+                        {!selectedState && (
+                          <p className="text-xs text-gray-500 mt-1">Selecciona una provincia primero</p>
+                        )}
+                        {selectedState && !loadingCities && cities.length === 0 && (
+                          <p className="text-xs text-gray-500 mt-1">No se encontraron ciudades</p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Category Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <Home className="w-4 h-4 inline mr-1" />
+                      Tipo de Alojamiento
+                    </label>
+                    <select
+                      value={selectedCategory}
+                      onChange={(e) => setSelectedCategory(e.target.value)}
+                      className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent"
+                    >
+                      <option value="all">Todos los tipos</option>
+                      {ALOJAMIENTO_CATEGORIES.map(category => (
+                        <option key={category} value={category}>{category}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Price Range */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <DollarSign className="w-4 h-4 inline mr-1" />
+                      Rango de Precio
+                    </label>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Desde:</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{formatPrice(priceRange.min)}</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="0"
+                        max="50000"
+                        step="1000"
+                        value={priceRange.min}
+                        onChange={(e) => setPriceRange({ ...priceRange, min: parseInt(e.target.value) })}
+                        className="w-full"
+                      />
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Hasta:</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{formatPrice(priceRange.max)}</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="0"
+                        max="50000"
+                        step="1000"
+                        value={priceRange.max}
+                        onChange={(e) => setPriceRange({ ...priceRange, max: parseInt(e.target.value) })}
+                        className="w-full"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Max People Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <Bed className="w-4 h-4 inline mr-1" />
+                      Cantidad máxima de personas
+                    </label>
+                    <select
+                      value={bedroomsFilter}
+                      onChange={(e) => setBedroomsFilter(e.target.value)}
+                      className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent"
+                    >
+                      <option value="all">Cualquier cantidad</option>
+                      <option value="1">1+ persona</option>
+                      <option value="2">2+ personas</option>
+                      <option value="4">4+ personas</option>
+                      <option value="6">6+ personas</option>
+                      <option value="8">8+ personas</option>
+                    </select>
+                  </div>
+
+                  {/* Amenities Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                      <Home className="w-4 h-4 inline mr-1" />
+                      Características y Servicios
+                    </label>
+                    <div className="max-h-48 overflow-y-auto space-y-2">
+                      {getAllAmenities().map((amenity) => (
+                        <label key={amenity} className="flex items-center space-x-2 cursor-pointer">
+                          <input
+                            type="checkbox"
+                            checked={selectedAmenities.includes(amenity)}
+                            onChange={(e) => {
+                              if (e.target.checked) {
+                                setSelectedAmenities([...selectedAmenities, amenity]);
+                              } else {
+                                setSelectedAmenities(selectedAmenities.filter(a => a !== amenity));
+                              }
+                            }}
+                            className="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary focus:ring-2"
+                          />
+                          <span className="text-sm text-gray-700 dark:text-gray-300">
+                            {amenity}
+                          </span>
+                        </label>
+                      ))}
+                    </div>
+                    {selectedAmenities.length > 0 && (
+                      <div className="mt-2">
+                        <button
+                          onClick={() => setSelectedAmenities([])}
+                          className="text-xs text-primary hover:text-secondary underline"
+                        >
+                          Limpiar selección
+                        </button>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Reset Filters */}
+                  <button
+                    onClick={() => {
+                      setSearchTerm('');
+                      setSelectedState('');
+                      setSelectedCity('');
+                      setCitySearchTerm('');
+                      setSelectedCategory('all');
+                      setPriceRange({ min: 0, max: 50000 });
+                      setBedroomsFilter('all');
+                      setSelectedAmenities([]);
+                    }}
+                    className="w-full px-4 py-2 text-sm text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                  >
+                    Limpiar Filtros
+                  </button>
+                </div>
+              </motion.div>
+            </>
+          )}
+        </AnimatePresence>
+
+        {/* Fixed Bottom Filter Button - Mobile Only */}
+        <button
+          onClick={() => setIsFilterModalOpen(true)}
+          className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-secondary transition-all duration-300 flex items-center space-x-2 z-40 lg:hidden"
+        >
+          <Filter className="w-5 h-5" />
+          <span className="font-medium">Filtrar</span>
+        </button>
+
+        {/* Advertisement Modal */}
+        <AdvertisementManager advertisement={alojamientosAdvertisement} />
       </div>
     </div>
   );

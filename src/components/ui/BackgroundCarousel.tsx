@@ -39,27 +39,69 @@ export default function BackgroundCarousel({
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-            index === currentIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
+      {/* Mobile View - Stacked images with transitions */}
+      <div className="block md:hidden relative w-full">
+        {/* Spacer to maintain container height based on active image */}
+        <div className="relative w-full opacity-0 pointer-events-none" aria-hidden="true">
           <Image
-            src={image}
-            alt={`Background ${index + 1}`}
-            fill
-            className="object-cover"
-            priority={index === 0}
+            src={images[currentIndex]}
+            alt=""
+            width={1920}
+            height={1080}
+            className="object-cover w-full h-auto"
             quality={90}
+            sizes="100vw"
           />
         </div>
-      ))}
+        {/* All images absolutely positioned and overlaid */}
+        {images.map((image, index) => (
+          <div
+            key={`mobile-${index}`}
+            className={`absolute top-0 left-0 w-full transition-opacity duration-1000 ease-in-out ${
+              index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
+            style={{ pointerEvents: index === currentIndex ? 'auto' : 'none' }}
+          >
+            <Image
+              src={image}
+              alt={`Background ${index + 1}`}
+              width={1920}
+              height={1080}
+              className="object-cover w-full h-auto"
+              priority={index === 0}
+              quality={90}
+              sizes="100vw"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop View - Absolute positioned images with transitions */}
+      <div className="hidden md:block relative w-full h-full">
+        {images.map((image, index) => (
+          <div
+            key={`desktop-${index}`}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+              index === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
+            }`}
+            style={index === currentIndex ? {} : { pointerEvents: 'none' }}
+          >
+            <Image
+              src={image}
+              alt={`Background ${index + 1}`}
+              fill
+              className="object-cover w-full h-full"
+              priority={index === 0}
+              quality={90}
+              sizes="100vw"
+            />
+          </div>
+        ))}
+      </div>
       
       {/* Navigation Dots */}
       {showDots && images.length > 1 && (
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
           {images.map((_, index) => (
             <button
               key={index}

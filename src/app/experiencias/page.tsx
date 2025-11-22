@@ -2,10 +2,16 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { motion } from 'framer-motion';
-import { Grid, List, Search, MapPin, DollarSign, Clock, Users, Mountain, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Grid, List, Search, MapPin, DollarSign, Clock, Users, Mountain, ChevronLeft, ChevronRight, X, Filter } from 'lucide-react';
+import { AnimatePresence } from 'framer-motion';
 import { firebaseDB } from '@/services/firebaseService';
 import { BasePost, ServiceCategory } from '@/types';
 import PostCard from '@/components/ui/PostCard';
+import AdvertisementManager from '@/components/ui/AdvertisementManager';
+import InlineAdvertisement from '@/components/ui/InlineAdvertisement';
+import SidebarAdvertisement from '@/components/ui/SidebarAdvertisement';
+import { getAdvertisementForPage, getInlineAdvertisementForPage, getSidebarAdvertisementsForPage } from '@/config/advertisements';
+import { insertAdsBetweenPosts, PostOrAd } from '@/utils/advertisementUtils';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { mainCategoryMapping, categoryAmenities, otrosServiciosGroups, facturacionOptions } from '@/services/dummyData';
 
@@ -39,6 +45,9 @@ const getFilterDisplayName = (category: ServiceCategory): string => {
 
 function ClasesContent() {
   const searchParams = useSearchParams();
+  const experienciasAdvertisement = getAdvertisementForPage('experiencias');
+  const inlineAdvertisement = getInlineAdvertisementForPage('experiencias');
+  const sidebarAds = getSidebarAdvertisementsForPage('experiencias');
   const [posts, setPosts] = useState<BasePost[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -59,6 +68,7 @@ function ClasesContent() {
   const [selectedFacturacion, setSelectedFacturacion] = useState<Record<string, boolean>>({});
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const router = useRouter();
 
   // Update category when URL changes
@@ -258,6 +268,18 @@ function ClasesContent() {
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
 
+  // Insert inline advertisements between posts (calculated based on total posts)
+  const postsWithAds: PostOrAd[] = insertAdsBetweenPosts(
+    currentPosts,
+    inlineAdvertisement
+  );
+
+  // Debug: Log ad insertion
+  if (process.env.NODE_ENV === 'development') {
+    const adCount = postsWithAds.filter(item => item.type === 'ad').length;
+    console.log(`[Experiencias] Posts: ${currentPosts.length}, Ads inserted: ${adCount}, Inline ad:`, inlineAdvertisement);
+  }
+
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -289,29 +311,31 @@ function ClasesContent() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto p-8">
-        {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-8"
-        >
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
-            Clases y Aventuras
-          </h1>
-          <p className="text-gray-600 dark:text-gray-300">
-            Descubre experiencias únicas y emocionantes
-          </p>
-        </motion.div>
+      <div className="flex">
+        {/* Main Content Container */}
+        <div className="flex-1 max-w-7xl mx-auto p-8">
+          {/* Header */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mb-8"
+          >
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
+              Clases y Aventuras
+            </h1>
+            <p className="text-gray-600 dark:text-gray-300">
+              Descubre experiencias únicas y emocionantes
+            </p>
+          </motion.div>
 
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Sidebar Filters */}
+          <div className="flex flex-col lg:flex-row gap-8">
+          {/* Sidebar Filters - Hidden on mobile */}
           <motion.aside
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="lg:w-80 flex-shrink-0"
+            className="hidden lg:block lg:w-80 flex-shrink-0"
           >
             <div className="glass rounded-xl p-6 sticky top-8 space-y-6">
               <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
@@ -646,21 +670,41 @@ function ClasesContent() {
                     ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6' 
                     : 'space-y-4'
                   }>
-                    {currentPosts.map((post, index) => (
-                      <motion.div
-                        key={post.id}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.4, delay: index * 0.05 }}
-                      >
-                        <PostCard 
-                          post={post} 
-                          onClick={() => handlePostClick(post.id)}
-                          showStatus={false}
-                          imageHeight="md"
-                        />
-                      </motion.div>
-                    ))}
+                    {postsWithAds.map((item, index) => {
+                      if (item.type === 'ad') {
+                        // Ad should be same size as post card
+                        return (
+                          <motion.div
+                            key={`ad-${index}`}
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.4, delay: index * 0.05 }}
+                          >
+                            <InlineAdvertisement 
+                              advertisement={item.data as any}
+                              imageHeight="md"
+                            />
+                          </motion.div>
+                        );
+                      }
+                      
+                      const post = item.data as any;
+                      return (
+                        <motion.div
+                          key={post.id}
+                          initial={{ opacity: 0, y: 20 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.4, delay: index * 0.05 }}
+                        >
+                          <PostCard 
+                            post={post} 
+                            onClick={() => handlePostClick(post.id)}
+                            showStatus={false}
+                            imageHeight="md"
+                          />
+                        </motion.div>
+                      );
+                    })}
                   </div>
 
                   {/* Pagination */}
@@ -720,6 +764,333 @@ function ClasesContent() {
             </motion.div>
           </div>
         </div>
+
+        
+      </div>
+
+      {/* Right Sidebar Advertisements - Static side section */}
+      {sidebarAds && sidebarAds.length > 0 && (
+          <motion.aside
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="hidden xl:block w-64 flex-shrink-0 p-8"
+          >
+            <div className="sticky top-8 space-y-6">
+              {sidebarAds.map((ad, index) => (
+                <SidebarAdvertisement
+                  key={ad.id || `sidebar-ad-${index}`}
+                  advertisement={ad}
+                  className="w-full"
+                />
+              ))}
+            </div>
+          </motion.aside>
+        )}
+
+      {/* Filter Modal - Mobile Only */}
+        <AnimatePresence>
+          {isFilterModalOpen && (
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="fixed inset-0 bg-black bg-opacity-50 z-50 lg:hidden"
+                onClick={() => setIsFilterModalOpen(false)}
+              />
+              <motion.div
+                initial={{ y: '100%' }}
+                animate={{ y: 0 }}
+                exit={{ y: '100%' }}
+                transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+                className="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 rounded-t-3xl shadow-2xl z-50 max-h-[90vh] overflow-y-auto lg:hidden"
+              >
+                <div className="sticky top-0 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-4 flex items-center justify-between z-10">
+                  <h2 className="text-xl font-bold text-gray-900 dark:text-white">
+                    Filtros
+                  </h2>
+                  <button
+                    onClick={() => setIsFilterModalOpen(false)}
+                    className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+                  >
+                    <X className="w-5 h-5 text-gray-600 dark:text-gray-300" />
+                  </button>
+                </div>
+                <div className="p-6 space-y-6">
+                  {/* Text Search */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      Buscar
+                    </label>
+                    <div className="relative">
+                      <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+                      <input
+                        type="text"
+                        placeholder="Buscar..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Location Filters */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <MapPin className="w-4 h-4 inline mr-1" />
+                      Ubicación
+                    </label>
+                    <div className="space-y-3">
+                      <div>
+                        <label className="block text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
+                          Provincia/Estado
+                        </label>
+                        <select
+                          value={selectedState}
+                          onChange={(e) => {
+                            setSelectedState(e.target.value);
+                            setSelectedCity('');
+                            setCitySearchTerm('');
+                          }}
+                          disabled={loadingStates}
+                          className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50"
+                        >
+                          <option value="">Seleccionar provincia/estado</option>
+                          {states.map((state) => (
+                            <option key={state.id} value={state.code}>
+                              {state.name}
+                            </option>
+                          ))}
+                        </select>
+                        {loadingStates && (
+                          <p className="text-xs text-gray-500 mt-1">Cargando provincias...</p>
+                        )}
+                      </div>
+
+                      <div className="relative city-dropdown-container">
+                        <label className="block text-xs font-medium text-gray-600 dark:text-gray-400 mb-1">
+                          Ciudad
+                        </label>
+                        <div className="relative">
+                          <input
+                            type="text"
+                            value={citySearchTerm}
+                            onChange={handleCitySearchChange}
+                            onFocus={() => setShowCityDropdown(true)}
+                            placeholder={!selectedState ? "Selecciona una provincia primero" : "Buscar ciudad..."}
+                            disabled={!selectedState || loadingCities}
+                            className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50"
+                          />
+                          
+                          {showCityDropdown && selectedState && !loadingCities && filteredCities.length > 0 && (
+                            <div className="absolute z-[100] w-full mt-1 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg max-h-60 overflow-y-auto">
+                              {filteredCities.slice(0, 50).map((city) => (
+                                <button
+                                  key={city.id}
+                                  type="button"
+                                  onClick={() => handleCitySelect(city)}
+                                  className="w-full px-3 py-2 text-left text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 focus:bg-gray-100 dark:focus:bg-gray-700 focus:outline-none"
+                                >
+                                  {city.name}
+                                </button>
+                              ))}
+                              {filteredCities.length > 50 && (
+                                <div className="px-3 py-2 text-xs text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
+                                  Mostrando las primeras 50 ciudades. Usa la búsqueda para filtrar.
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                        
+                        {loadingCities && (
+                          <p className="text-xs text-gray-500 mt-1">Cargando ciudades...</p>
+                        )}
+                        {!selectedState && (
+                          <p className="text-xs text-gray-500 mt-1">Selecciona una provincia primero</p>
+                        )}
+                        {selectedState && !loadingCities && cities.length === 0 && (
+                          <p className="text-xs text-gray-500 mt-1">No se encontraron ciudades</p>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Category Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <Mountain className="w-4 h-4 inline mr-1" />
+                      Tipo de Actividad
+                    </label>
+                    <select
+                      value={selectedCategory}
+                      onChange={(e) => setSelectedCategory(e.target.value)}
+                      className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent"
+                    >
+                      <option value="all">Todas las actividades</option>
+                      {Object.entries(otrosServiciosGroups).map(([groupName, categories]) => (
+                        <optgroup key={groupName} label={groupName}>
+                          {categories.map((category) => (
+                            <option key={category} value={category}>
+                              {getFilterDisplayName(category)}
+                            </option>
+                          ))}
+                        </optgroup>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Price Range */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <DollarSign className="w-4 h-4 inline mr-1" />
+                      Rango de Precio
+                    </label>
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Desde:</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{formatPrice(priceRange.min)}</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="0"
+                        max="50000"
+                        step="500"
+                        value={priceRange.min}
+                        onChange={(e) => setPriceRange({ ...priceRange, min: parseInt(e.target.value) })}
+                        className="w-full"
+                      />
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Hasta:</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{formatPrice(priceRange.max)}</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="0"
+                        max="50000"
+                        step="500"
+                        value={priceRange.max}
+                        onChange={(e) => setPriceRange({ ...priceRange, max: parseInt(e.target.value) })}
+                        className="w-full"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Información Específica Checkboxes */}
+                  {selectedCategory !== 'all' && 
+                   (selectedCategory === 'Clases de Esquí' || 
+                    selectedCategory === 'Clases de snowboard' || 
+                    selectedCategory === 'Clases de surf' ||
+                    selectedCategory === 'Clases de wingfoil' ||
+                    selectedCategory === 'Clases de wing surf') && 
+                   categoryAmenities[selectedCategory as keyof typeof categoryAmenities] && (
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                        Información Específica
+                      </label>
+                      <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
+                        {categoryAmenities[selectedCategory as keyof typeof categoryAmenities]?.map((amenity) => (
+                          <label key={amenity} className="flex items-center space-x-2 p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors cursor-pointer">
+                            <input
+                              type="checkbox"
+                              checked={Boolean(selectedAmenities[amenity])}
+                              onChange={(e) => setSelectedAmenities({
+                                ...selectedAmenities,
+                                [amenity]: e.target.checked
+                              })}
+                              className="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary focus:ring-2"
+                            />
+                            <span className="text-sm text-gray-700 dark:text-gray-300">
+                              {amenity}
+                            </span>
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Facturación */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                      Facturación
+                    </label>
+                    <div className="space-y-2">
+                      {facturacionOptions.map((option) => (
+                        <label key={option} className="flex items-center space-x-2 p-2 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors cursor-pointer">
+                          <input
+                            type="checkbox"
+                            checked={Boolean(selectedFacturacion[option])}
+                            onChange={(e) => {
+                              const newSelectedFacturacion = { ...selectedFacturacion };
+                              
+                              if (option === 'No emite factura') {
+                                if (e.target.checked) {
+                                  newSelectedFacturacion['Emite factura C'] = false;
+                                  newSelectedFacturacion['Emite factura A'] = false;
+                                }
+                              } else {
+                                if (e.target.checked) {
+                                  newSelectedFacturacion['No emite factura'] = false;
+                                }
+                              }
+                              
+                              newSelectedFacturacion[option] = e.target.checked;
+                              setSelectedFacturacion(newSelectedFacturacion);
+                            }}
+                            disabled={
+                              (option !== 'No emite factura' && Boolean(selectedFacturacion['No emite factura'])) ||
+                              (option === 'No emite factura' && (Boolean(selectedFacturacion['Emite factura C']) || Boolean(selectedFacturacion['Emite factura A'])))
+                            }
+                            className="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary focus:ring-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                          />
+                          <span className={`text-sm ${
+                            (option !== 'No emite factura' && Boolean(selectedFacturacion['No emite factura'])) ||
+                            (option === 'No emite factura' && (Boolean(selectedFacturacion['Emite factura C']) || Boolean(selectedFacturacion['Emite factura A'])))
+                              ? 'text-gray-400 dark:text-gray-500'
+                              : 'text-gray-700 dark:text-gray-300'
+                          }`}>
+                            {option}
+                          </span>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Reset Filters */}
+                  <button
+                    onClick={() => {
+                      setSearchTerm('');
+                      setSelectedState('');
+                      setSelectedCity('');
+                      setCitySearchTerm('');
+                      setSelectedCategory('all');
+                      setPriceRange({ min: 0, max: 50000 });
+                      setSelectedAmenities({});
+                      setSelectedFacturacion({});
+                    }}
+                    className="w-full px-4 py-2 text-sm text-gray-600 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                  >
+                    Limpiar Filtros
+                  </button>
+                </div>
+              </motion.div>
+            </>
+          )}
+        </AnimatePresence>
+
+        {/* Fixed Bottom Filter Button - Mobile Only */}
+        <button
+          onClick={() => setIsFilterModalOpen(true)}
+          className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-secondary transition-all duration-300 flex items-center space-x-2 z-40 lg:hidden"
+        >
+          <Filter className="w-5 h-5" />
+          <span className="font-medium">Filtrar</span>
+        </button>
+
+        {/* Advertisement Modal */}
+        <AdvertisementManager advertisement={experienciasAdvertisement} />
       </div>
     </div>
   );

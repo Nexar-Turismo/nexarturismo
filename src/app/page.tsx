@@ -27,6 +27,8 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import AddressSearch from '@/components/ui/AddressSearch';
 import BackgroundCarousel from '@/components/ui/BackgroundCarousel';
+import AdvertisementManager from '@/components/ui/AdvertisementManager';
+import { getAdvertisementForPage } from '@/config/advertisements';
 import { firebaseDB } from '@/services/firebaseService';
 
 // Icon Card Component with GSAP Animation
@@ -625,6 +627,7 @@ function IconCard({ card, index }: { card: { icon: string; title: string; descri
 }
 
 export default function HomePage() {
+  const homeAdvertisement = getAdvertisementForPage('home');
   const router = useRouter();
   const [searchForm, setSearchForm] = useState({
     location: '',
@@ -767,13 +770,13 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section - Banner with Search Form Only */}
-      <section className="relative py-12 sm:py-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-end">
+      <section className="relative py-12 sm:py-20 px-4 sm:px-6 lg:px-8 min-h-[60vh] md:min-h-screen flex items-end">
         {/* Background Carousel - Images with text included */}
         <div className="absolute inset-0 z-0">
           <BackgroundCarousel 
             images={bannerImages} 
             interval={5000}
-            className="w-full h-full"
+            className="w-full h-full md:w-full"
           />
         </div>
         
@@ -838,12 +841,14 @@ export default function HomePage() {
                   </div>
                 )}
               </div>
+              {/* Mobile: Full-width button, Desktop: Icon button */}
               <button 
                 onClick={handleSearch}
-                className="w-12 h-12 bg-primary text-white rounded-full hover:bg-secondary transition-all duration-300 transform hover:scale-105 flex items-center justify-center flex-shrink-0"
+                className="lg:w-12 lg:h-12 w-full py-3 bg-primary text-white rounded-3xl lg:rounded-full hover:bg-secondary transition-all duration-300 transform hover:scale-105 flex items-center justify-center flex-shrink-0 lg:flex-shrink-0"
                 aria-label="Buscar"
               >
-                <Search className="w-5 h-5" />
+                <span className="lg:hidden font-medium text-base">Buscar</span>
+                <Search className="hidden lg:block w-5 h-5" />
               </button>
             </div>
           </motion.div>
@@ -871,7 +876,7 @@ export default function HomePage() {
             <hr className="mx-auto w-[50%] h-[3px] bg-primary border-0 rounded-full" />
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {popularDestinations.map((destination, index) => (
               <motion.div
                 key={destination.name}
@@ -1086,6 +1091,9 @@ export default function HomePage() {
           )}
         </div>
       </section>
+
+      {/* Advertisement Modal */}
+      <AdvertisementManager advertisement={homeAdvertisement} />
     </div>
   );
 }
